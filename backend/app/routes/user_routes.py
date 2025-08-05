@@ -36,7 +36,7 @@ def login(user_login: UserLogin, db: Session = Depends(get_db)):
         value=access_token,
         httponly=True,
         path="/",
-        secure=False,  # ⚠️ Ubah jadi True untuk production (HTTPS)
+        secure=True,  # ⚠️ Ubah jadi True untuk production (HTTPS)
         samesite="lax",
         max_age=60 * 60 * 24  # ✅ 1 hari dalam detik
     )
