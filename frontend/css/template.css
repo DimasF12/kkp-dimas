@@ -1,0 +1,154 @@
+/* Reset margin, padding, dan set tampilan flex pada body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(99, 98, 98);
+}
+  
+  /* Kontainer utama hasil sukses */
+.result-success {
+    width: 393px;
+    height: 1500px;
+    position: relative;
+    background: white;
+    overflow: hidden;
+    border-radius: 30px;
+}
+  
+  /* Background header pada bagian atas */
+.header-bg {
+    width: 400px;
+    height: 182px;
+    display: flex;
+    background: #006CFE;
+}
+  
+  /* Konten utama yang berisi elemen SVG */
+.box-1 {
+    bottom: -5px;
+    position: absolute;
+}
+  
+  /* Panel saran investasi */
+.investment-suggestion {
+    width: 330px;
+    height: 219px;
+    margin: auto;
+    position: relative;
+    background: white;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 2px black solid;
+    z-index: 2;
+}
+  
+  /* Garis pemisah */
+.separator-line {
+    width: 310px;
+    margin: auto;
+    background: #ffffff;
+    border-bottom: 1px black solid;
+}
+  
+  /* Judul saran investasi */
+.suggestion-title {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+  
+  /* Gambar ponsel pada aplikasi */
+.input-user {
+    width: 350px;
+    height: 581px;
+    bottom: 50px;
+    margin: auto;
+    position: relative;
+    background: white;
+    box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 1px black solid;
+}
+  
+  /* Panel informasi aplikasi */
+.response-info {
+    width: 341px;
+    height: 150px;
+    margin: auto;
+    bottom: 70px;
+    position: relative;
+    background: #2DF95D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 2px black solid;
+}
+  
+  /* Nama aplikasi Monify */
+.app-name {
+    left: 65px;
+    top: 55px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 36px;
+    font-family: Nunito, sans-serif;
+    font-weight: 800;
+
+}
+  
+  /* Tombol kembali */
+.back-btn {
+    top: 70px;
+    left: 25px;
+    position: relative;
+}
+  
+.back-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+    /* Panel saran investasi */
+.analisa {
+    width: 330px;
+    height: 219px;
+    margin: auto;
+    bottom: 30px;
+    position: relative;
+    background: white;
+    box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    border: 2px black solid;
+    z-index: 2;
+}
+      
+  /* Garis pemisah */
+.separator-analisa {
+    width: 310px;
+    margin: auto;
+    background: #ffffff;
+    border-bottom: 1px black solid;
+}
+      
+/* Judul saran investasi */
+.analisa-title {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+  

@@ -1,0 +1,22 @@
+# Environment & IDE
+.env
+.vscode/
+
+# Python backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# venv (pastikan path benar, relative ke root project)
+backend\app\myenv
+backend/myenv/
+myenv/
+
+# Node frontend
+node_modules/
+dist/
+npm-debug.log
+
+# Others
+prometheus.exe

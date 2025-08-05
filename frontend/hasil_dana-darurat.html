@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hasil Kalkulator Dana Darurat</title>
+  <link rel="stylesheet" href="css/hasil_dana-darurat.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Inter:wght@400;600;700;800&display=swap">
+  <link rel="icon" href="../icon.png" type="image/png">
+</head>
+<body>
+  <div class="result-success">
+    <!-- HEADER -->
+    <div class="header-bg">
+      <div class="back-btn">
+        <button class="back-button" onclick="history.back()">
+          <i class="fa-solid fa-arrow-left fa-2xl" style="color: white;"></i>
+        </button>
+      </div>
+      <div class="app-name">Monify</div>
+    </div>
+
+    <!-- PESAN RESPON -->
+    <div class="response-info" id="responseInfo">
+      Sedang memuat hasil kalkulasi...
+    </div>
+
+    <!-- INPUT USER -->
+    <div class="input-user" id="inputUser">
+      <!-- Akan diisi oleh JS -->
+    </div>
+
+    <!-- ANALISA -->
+    <div class="analisa">
+      <div class="analisa-title">Hasil Analisa</div>
+      <div class="separator-analisa"></div>
+      <div id="hasilAnalisa" style="padding: 15px;"></div>
+    </div>
+
+    <!-- BACKGROUND -->
+    <div class="box-1">
+      <svg width="393" height="253" viewBox="0 0 393 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M430.884 273.083C430.854 276.949 427.696 280.059 423.831 280.03L-32.3976 276.552C-36.2635 276.523 -39.3735 273.365 -39.344 269.499L-37.5819 38.3136C-37.547 33.7422 -31.0121 32.9886 -29.9377 37.4321L-13.3817 105.905C4.57635 180.177 91.7458 212.977 154.21 168.966L172.458 156.109C177.196 152.771 181.362 148.686 184.793 144.015L239.961 68.9038C284.084 8.82975 362.491 -15.0271 432.597 10.29V10.29C432.77 10.3526 432.885 10.5178 432.884 10.7021L430.884 273.083Z" fill="#006CFE"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- SINKRONISED JS -->
+  <script src="js/hasil_dana-darurat.js"></script>
+</body>
+</html>

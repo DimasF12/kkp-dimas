@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monify - Investment Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Inter:wght@400;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/dana-pensiun.css">
+  <link rel="icon" href="image/icon.png" type="image/png">
+</head>
+<body>
+    <div class="danpen-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <button class="back-button">
+                <i class="fa-solid fa-arrow-left fa-2xl" style="color: white;"></i>
+            </button>
+            <h1 class="app-logo">Monify</h1>
+        </header>
+
+        <!-- User Profile Section -->
+        <section class="user-profile">
+            <div class="profile-card">
+                <div class="avatar">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <div class="profile-info">
+                    <div class="app-info">
+                        <span class="app-name">Monify</span>
+                        <p class="tagline">Atur Keuangan, Bebas Stres</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section class="danpen-section">
+            <div class="section-header">
+                <h2 class="section-title">Hitung Dana Pensiun</h2>
+                <div class="danpen-icon">
+                    <i class="fas fa-person-cane fa-2xl" style="color: #006CFE;"></i>
+                </div>
+            </div>
+
+            <form id="pensiunForm" class="dana_pensiun-form">
+
+                <!-- Pengeluaran Bulanan -->
+                <div class="input-group">
+                  <label for="pengeluaran_bulanan">Pengeluaran Bulanan</label>
+                  <div class="input-field">
+                    <span class="currency">Rp</span>
+                    <input type="text" id="pengeluaran_bulanan" >
+                  </div>
+                </div>
+              
+                <!-- Usia Saat Ini -->
+                <div class="input-group">
+                  <label for="usia_saat_ini">Usia Saat Ini</label>
+                  <div class="input-field">
+                    <input type="text" id="usia_saat_ini" class="years-input">
+                    <span class="suffix">Tahun</span>
+                  </div>
+                </div>
+              
+                <!-- Target Usia Pensiun -->
+                <div class="input-group">
+                  <label for="target_usia_pensiun">Target Usia Pensiun</label>
+                  <div class="input-field">
+                    <input type="text" id="target_usia_pensiun" class="years-input">
+                    <span class="suffix">Tahun</span>
+                  </div>
+                </div>
+              
+                <!-- Asumsi Inflasi -->
+                <div class="input-group">
+                  <label for="inflasi">Asumsi Inflasi</label>
+                  <div class="input-field">
+                    <input type="text" id="inflasi" value="4" class="percent-input">
+                    <span class="suffix">%</span>
+                  </div>
+                </div>
+              
+                <!-- Dana Pensiun Saat Ini -->
+                <div class="input-group">
+                  <label for="dana_pensiun_saat_ini">Dana Pensiun Saat Ini</label>
+                  <div class="input-field">
+                    <span class="currency">Rp</span>
+                    <input type="text" id="dana_pensiun_saat_ini">
+                  </div>
+                </div>
+              
+                <!-- Target Investasi Bulanan -->
+                <div class="input-group">
+                  <label for="target_investasi_bulanan">Target Investasi Bulanan</label>
+                  <div class="input-field">
+                    <span class="currency">Rp</span>
+                    <input type="text" id="target_investasi_bulanan">
+                  </div>
+                </div>
+              
+                <!-- Return Investasi -->
+                <div class="input-group">
+                  <label for="return_investasi">Return Investasi</label>
+                  <div class="input-field">
+                    <input type="text" id="return_investasi" class="percent-input">
+                    <span class="suffix">%/Tahun</span>
+                  </div>
+                </div>
+              
+                <!-- Tombol Submit -->
+                <button class="danpen-btn" type="submit">
+                    Ayo Cek Analisa Mu
+                    <i class="fas fa-bullseye" style="margin-left: 7px;"></i>
+                </button>
+              
+              </form>
+              
+        </section>
+    </div>
+    <script src="js/dana-pensiun.js"></script>
+</body>
+</html>

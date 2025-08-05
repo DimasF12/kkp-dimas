@@ -1,0 +1,236 @@
+/* Design System */
+:root {
+  /* Light Theme */
+  --primary: #006CFE;
+  --secondary: #2F80ED;
+  --surface: #FFFFFF;
+  --background: #F8F9FE;
+  --text-primary: #2D3436;
+  --text-secondary: #636E72;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --shadow: 0 8px 24px rgba(0, 108, 254, 0.1);
+
+
+  /* Dark Theme */
+  --primary-dark: #4DABFF;
+  --surface-dark: #1E1E2E;
+  --background-dark: #121212;
+  --text-primary-dark: #E0E0E0;
+  --text-secondary-dark: #888888;
+}
+
+/* Dark Mode Variables */
+[data-theme="dark"] {
+  --primary: var(--primary-dark);
+  --surface: var(--surface-dark);
+  --background: var(--background-dark);
+  --text-primary: var(--text-primary-dark);
+  --text-secondary: var(--text-secondary-dark);
+}
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  min-height: 100vh;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Utility Classes */
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: var(--surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow);
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Header */
+.main-header {
+  background: var(--primary);
+  padding: 24px 0;
+  margin-bottom: 80px;
+  position: relative;
+  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  transition: background 0.3s ease;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: white;
+}
+
+.app-logo {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+#themeToggle{
+  background: none;
+  border: none;
+  color: white;
+}
+
+#backButton{
+  background: none;
+  border: none;
+  color: white;
+}
+
+/* Profile Section */
+.profile-section {
+  margin-top: -60px;
+  position: relative;
+  z-index: 1;
+}
+
+.profile-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--primary);
+  background: var(--background);
+  transition: all 0.3s ease;
+}
+
+.greeting {
+  color: var(--secondary);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.tagline {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+/* Services Section */
+.services-section {
+  margin: 32px 0;
+}
+
+.section-title {
+  color: var(--primary);
+  font-size: 24px;
+  margin-bottom: 24px;
+  padding-left: 8px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+}
+
+.service-card {
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.service-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 12px;
+}
+
+.service-title {
+  color: var(--text-primary);
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Loading State */
+.loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent
+  );
+  animation: loading 1.5s infinite;
+}
+
+
+
+@keyframes loading {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--primary);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+  grid-column: 1 / -1;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+  .container {
+      max-width: 800px;
+      padding: 0 32px;
+  }
+  
+  .services-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}

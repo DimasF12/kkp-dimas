@@ -1,0 +1,1441 @@
+id,user_id,type,amount,date,category,description
+1,1,True,5113646,2020-01-01,Gaji,Gaji Bulanan Utama
+2,1,True,392742,2020-01-21,Freelance,Pendapatan Tambahan
+3,1,False,152679,2020-01-12,Utilitas,Pengeluaran Utilitas
+4,1,False,133696,2020-01-22,Tagihan,Pengeluaran Tagihan
+5,1,False,138893,2020-01-24,Hiburan,Pengeluaran Hiburan
+6,1,False,140222,2020-01-11,Pakaian,Pengeluaran Pakaian
+7,1,False,155934,2020-01-14,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+8,1,False,128124,2020-01-03,Hiburan,Pengeluaran Hiburan
+9,1,False,133244,2020-01-25,Utilitas,Pengeluaran Utilitas
+10,1,False,118480,2020-01-15,Belanja,Pengeluaran Belanja
+11,1,False,125642,2020-01-11,Perjalanan,Pengeluaran Perjalanan
+12,1,False,157907,2020-01-08,Kesehatan,Pengeluaran Kesehatan
+13,1,False,134568,2020-01-03,Rumah Tangga,Pengeluaran Rumah Tangga
+14,1,False,149369,2020-01-19,Asuransi,Pengeluaran Asuransi
+15,1,False,156259,2020-01-21,Makanan,Pengeluaran Makanan
+16,1,False,149191,2020-01-18,Rumah Tangga,Pengeluaran Rumah Tangga
+17,1,False,119110,2020-01-06,Perawatan Diri,Pengeluaran Perawatan Diri
+18,1,False,152059,2020-01-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+19,1,False,150829,2020-01-04,Utilitas,Pengeluaran Utilitas
+20,1,False,149656,2020-01-21,Utilitas,Pengeluaran Utilitas
+21,1,False,124593,2020-01-06,Belanja,Pengeluaran Belanja
+22,1,False,126264,2020-01-03,Donasi/Amal,Pengeluaran Donasi/Amal
+23,1,False,120950,2020-01-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+24,1,False,120871,2020-01-04,Utilitas,Pengeluaran Utilitas
+25,1,False,154644,2020-01-29,Donasi/Amal,Pengeluaran Donasi/Amal
+26,1,False,117097,2020-01-06,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+27,1,False,138383,2020-01-04,Asuransi,Pengeluaran Asuransi
+28,1,False,125885,2020-01-27,Perawatan Diri,Pengeluaran Perawatan Diri
+29,1,False,4453572,2020-01-27,Lain-lain,Pengeluaran Tak Terduga / Anomali Besar
+30,1,True,4881759,2020-02-01,Gaji,Gaji Bulanan Utama
+31,1,False,193041,2020-02-09,Donasi/Amal,Pengeluaran Donasi/Amal
+32,1,False,213707,2020-02-02,Donasi/Amal,Pengeluaran Donasi/Amal
+33,1,False,231949,2020-02-20,Utilitas,Pengeluaran Utilitas
+34,1,False,224052,2020-02-24,Donasi/Amal,Pengeluaran Donasi/Amal
+35,1,False,217435,2020-02-27,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+36,1,False,191308,2020-02-15,Utilitas,Pengeluaran Utilitas
+37,1,False,218029,2020-02-27,Pakaian,Pengeluaran Pakaian
+38,1,False,205659,2020-02-15,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+39,1,False,192608,2020-02-22,Donasi/Amal,Pengeluaran Donasi/Amal
+40,1,False,231056,2020-02-18,Tagihan,Pengeluaran Tagihan
+41,1,False,211192,2020-02-12,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+42,1,False,206423,2020-02-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+43,1,False,237741,2020-02-25,Perjalanan,Pengeluaran Perjalanan
+44,1,False,189035,2020-02-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+45,1,False,233502,2020-02-25,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+46,1,False,200039,2020-02-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+47,1,True,5450402,2020-03-01,Gaji,Gaji Bulanan Utama
+48,1,True,623028,2020-03-26,Freelance,Pendapatan Tambahan
+49,1,False,205827,2020-03-29,Asuransi,Pengeluaran Asuransi
+50,1,False,207288,2020-03-04,Rumah Tangga,Pengeluaran Rumah Tangga
+51,1,False,251325,2020-03-25,Utilitas,Pengeluaran Utilitas
+52,1,False,210173,2020-03-27,Transportasi,Pengeluaran Transportasi
+53,1,False,221731,2020-03-24,Donasi/Amal,Pengeluaran Donasi/Amal
+54,1,False,237487,2020-03-07,Belanja,Pengeluaran Belanja
+55,1,False,212880,2020-03-18,Makanan,Pengeluaran Makanan
+56,1,False,228670,2020-03-05,Utilitas,Pengeluaran Utilitas
+57,1,False,250074,2020-03-24,Makanan,Pengeluaran Makanan
+58,1,False,244453,2020-03-29,Belanja,Pengeluaran Belanja
+59,1,False,214203,2020-03-08,Perjalanan,Pengeluaran Perjalanan
+60,1,False,242753,2020-03-20,Belanja,Pengeluaran Belanja
+61,1,False,225850,2020-03-17,Rumah Tangga,Pengeluaran Rumah Tangga
+62,1,False,260777,2020-03-16,Rumah Tangga,Pengeluaran Rumah Tangga
+63,1,False,270913,2020-03-27,Perawatan Diri,Pengeluaran Perawatan Diri
+64,1,False,211878,2020-03-11,Utilitas,Pengeluaran Utilitas
+65,1,False,529808,2020-03-17,Pulsa/Paket Data,Pengeluaran Ekstra
+66,1,True,4566849,2020-04-01,Gaji,Gaji Bulanan Utama
+67,1,False,120291,2020-04-20,Kesehatan,Pengeluaran Kesehatan
+68,1,False,132136,2020-04-06,Kesehatan,Pengeluaran Kesehatan
+69,1,False,133486,2020-04-26,Kesehatan,Pengeluaran Kesehatan
+70,1,False,125675,2020-04-07,Perawatan Diri,Pengeluaran Perawatan Diri
+71,1,False,156960,2020-04-07,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+72,1,False,122080,2020-04-22,Tagihan,Pengeluaran Tagihan
+73,1,False,120466,2020-04-25,Tagihan,Pengeluaran Tagihan
+74,1,False,139281,2020-04-23,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+75,1,False,134786,2020-04-14,Asuransi,Pengeluaran Asuransi
+76,1,False,118477,2020-04-27,Makanan,Pengeluaran Makanan
+77,1,False,139565,2020-04-29,Kesehatan,Pengeluaran Kesehatan
+78,1,False,147201,2020-04-29,Perawatan Diri,Pengeluaran Perawatan Diri
+79,1,False,146223,2020-04-26,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+80,1,False,135784,2020-04-27,Makanan,Pengeluaran Makanan
+81,1,False,157976,2020-04-25,Perawatan Diri,Pengeluaran Perawatan Diri
+82,1,False,145988,2020-04-10,Asuransi,Pengeluaran Asuransi
+83,1,False,150490,2020-04-12,Makanan,Pengeluaran Makanan
+84,1,False,147002,2020-04-16,Utilitas,Pengeluaran Utilitas
+85,1,False,134616,2020-04-27,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+86,1,False,127869,2020-04-26,Belanja,Pengeluaran Belanja
+87,1,False,148435,2020-04-21,Hiburan,Pengeluaran Hiburan
+88,1,False,146730,2020-04-27,Hiburan,Pengeluaran Hiburan
+89,1,False,134714,2020-04-22,Perjalanan,Pengeluaran Perjalanan
+90,1,True,5194461,2020-05-01,Gaji,Gaji Bulanan Utama
+91,1,True,469507,2020-05-22,Bonus,Pendapatan Tambahan
+92,1,False,120961,2020-05-25,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+93,1,False,119540,2020-05-21,Transportasi,Pengeluaran Transportasi
+94,1,False,111741,2020-05-08,Makanan,Pengeluaran Makanan
+95,1,False,115817,2020-05-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+96,1,False,128414,2020-05-25,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+97,1,False,128963,2020-05-12,Utilitas,Pengeluaran Utilitas
+98,1,False,115765,2020-05-27,Rumah Tangga,Pengeluaran Rumah Tangga
+99,1,False,132234,2020-05-27,Tagihan,Pengeluaran Tagihan
+100,1,False,114251,2020-05-20,Tagihan,Pengeluaran Tagihan
+101,1,False,124279,2020-05-07,Perjalanan,Pengeluaran Perjalanan
+102,1,False,112900,2020-05-23,Pakaian,Pengeluaran Pakaian
+103,1,False,125160,2020-05-07,Perjalanan,Pengeluaran Perjalanan
+104,1,False,131756,2020-05-16,Perawatan Diri,Pengeluaran Perawatan Diri
+105,1,False,115920,2020-05-28,Transportasi,Pengeluaran Transportasi
+106,1,False,127944,2020-05-16,Asuransi,Pengeluaran Asuransi
+107,1,False,107674,2020-05-01,Rumah Tangga,Pengeluaran Rumah Tangga
+108,1,False,108306,2020-05-24,Utilitas,Pengeluaran Utilitas
+109,1,False,140054,2020-05-06,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+110,1,False,110349,2020-05-21,Rumah Tangga,Pengeluaran Rumah Tangga
+111,1,False,132245,2020-05-14,Transportasi,Pengeluaran Transportasi
+112,1,False,124680,2020-05-03,Perawatan Diri,Pengeluaran Perawatan Diri
+113,1,False,134768,2020-05-19,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+114,1,False,137219,2020-05-26,Donasi/Amal,Pengeluaran Donasi/Amal
+115,1,False,123103,2020-05-02,Edukasi,Pengeluaran Edukasi
+116,1,False,136006,2020-05-09,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+117,1,False,136763,2020-05-17,Rumah Tangga,Pengeluaran Rumah Tangga
+118,1,False,129218,2020-05-02,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+119,1,False,114413,2020-05-27,Asuransi,Pengeluaran Asuransi
+120,1,False,133206,2020-05-06,Perjalanan,Pengeluaran Perjalanan
+121,1,True,4995535,2020-06-01,Gaji,Gaji Bulanan Utama
+122,1,False,114734,2020-06-09,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+123,1,False,129288,2020-06-23,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+124,1,False,121370,2020-06-13,Edukasi,Pengeluaran Edukasi
+125,1,False,124807,2020-06-16,Rumah Tangga,Pengeluaran Rumah Tangga
+126,1,False,142025,2020-06-24,Kesehatan,Pengeluaran Kesehatan
+127,1,False,117574,2020-06-23,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+128,1,False,132558,2020-06-26,Donasi/Amal,Pengeluaran Donasi/Amal
+129,1,False,133896,2020-06-21,Hiburan,Pengeluaran Hiburan
+130,1,False,136575,2020-06-28,Asuransi,Pengeluaran Asuransi
+131,1,False,139156,2020-06-22,Perjalanan,Pengeluaran Perjalanan
+132,1,False,148184,2020-06-14,Pakaian,Pengeluaran Pakaian
+133,1,False,131609,2020-06-09,Transportasi,Pengeluaran Transportasi
+134,1,False,133035,2020-06-27,Edukasi,Pengeluaran Edukasi
+135,1,False,144218,2020-06-22,Transportasi,Pengeluaran Transportasi
+136,1,False,141403,2020-06-11,Edukasi,Pengeluaran Edukasi
+137,1,False,117584,2020-06-28,Hiburan,Pengeluaran Hiburan
+138,1,False,130960,2020-06-20,Belanja,Pengeluaran Belanja
+139,1,False,140587,2020-06-07,Utilitas,Pengeluaran Utilitas
+140,1,False,144046,2020-06-20,Transportasi,Pengeluaran Transportasi
+141,1,False,120173,2020-06-13,Rumah Tangga,Pengeluaran Rumah Tangga
+142,1,False,119844,2020-06-23,Edukasi,Pengeluaran Edukasi
+143,1,False,133436,2020-06-21,Rumah Tangga,Pengeluaran Rumah Tangga
+144,1,False,117140,2020-06-04,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+145,1,False,130382,2020-06-12,Belanja,Pengeluaran Belanja
+146,1,False,125237,2020-06-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+147,1,False,136962,2020-06-02,Edukasi,Pengeluaran Edukasi
+148,1,False,132566,2020-06-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+149,1,True,4636516,2020-07-01,Gaji,Gaji Bulanan Utama
+150,1,False,151059,2020-07-10,Pakaian,Pengeluaran Pakaian
+151,1,False,138483,2020-07-21,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+152,1,False,132513,2020-07-04,Donasi/Amal,Pengeluaran Donasi/Amal
+153,1,False,141133,2020-07-02,Edukasi,Pengeluaran Edukasi
+154,1,False,144176,2020-07-17,Asuransi,Pengeluaran Asuransi
+155,1,False,138843,2020-07-05,Transportasi,Pengeluaran Transportasi
+156,1,False,123904,2020-07-09,Perjalanan,Pengeluaran Perjalanan
+157,1,False,141725,2020-07-04,Pakaian,Pengeluaran Pakaian
+158,1,False,148708,2020-07-26,Perawatan Diri,Pengeluaran Perawatan Diri
+159,1,False,133573,2020-07-08,Kesehatan,Pengeluaran Kesehatan
+160,1,False,140921,2020-07-19,Transportasi,Pengeluaran Transportasi
+161,1,False,130189,2020-07-07,Tagihan,Pengeluaran Tagihan
+162,1,False,161115,2020-07-02,Perjalanan,Pengeluaran Perjalanan
+163,1,False,123057,2020-07-27,Edukasi,Pengeluaran Edukasi
+164,1,False,153076,2020-07-19,Perawatan Diri,Pengeluaran Perawatan Diri
+165,1,False,125106,2020-07-05,Kesehatan,Pengeluaran Kesehatan
+166,1,False,135783,2020-07-28,Utilitas,Pengeluaran Utilitas
+167,1,False,125350,2020-07-19,Donasi/Amal,Pengeluaran Donasi/Amal
+168,1,False,121600,2020-07-08,Kesehatan,Pengeluaran Kesehatan
+169,1,False,160739,2020-07-02,Belanja,Pengeluaran Belanja
+170,1,False,152360,2020-07-10,Donasi/Amal,Pengeluaran Donasi/Amal
+171,1,False,146313,2020-07-23,Perawatan Diri,Pengeluaran Perawatan Diri
+172,1,False,128076,2020-07-25,Belanja,Pengeluaran Belanja
+173,1,False,454036,2020-07-29,Edukasi,Pengeluaran Ekstra
+174,1,True,5157808,2020-08-01,Gaji,Gaji Bulanan Utama
+175,1,False,137028,2020-08-24,Utilitas,Pengeluaran Utilitas
+176,1,False,128114,2020-08-05,Transportasi,Pengeluaran Transportasi
+177,1,False,167885,2020-08-20,Perjalanan,Pengeluaran Perjalanan
+178,1,False,143773,2020-08-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+179,1,False,157065,2020-08-20,Kesehatan,Pengeluaran Kesehatan
+180,1,False,154912,2020-08-16,Rumah Tangga,Pengeluaran Rumah Tangga
+181,1,False,164033,2020-08-22,Belanja,Pengeluaran Belanja
+182,1,False,149245,2020-08-14,Perawatan Diri,Pengeluaran Perawatan Diri
+183,1,False,136705,2020-08-21,Kesehatan,Pengeluaran Kesehatan
+184,1,False,129389,2020-08-11,Hiburan,Pengeluaran Hiburan
+185,1,False,136545,2020-08-04,Pakaian,Pengeluaran Pakaian
+186,1,False,141663,2020-08-17,Pakaian,Pengeluaran Pakaian
+187,1,False,155158,2020-08-27,Edukasi,Pengeluaran Edukasi
+188,1,False,161284,2020-08-19,Donasi/Amal,Pengeluaran Donasi/Amal
+189,1,False,168162,2020-08-15,Rumah Tangga,Pengeluaran Rumah Tangga
+190,1,False,154938,2020-08-16,Tagihan,Pengeluaran Tagihan
+191,1,False,147772,2020-08-13,Tagihan,Pengeluaran Tagihan
+192,1,False,162664,2020-08-27,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+193,1,False,157044,2020-08-29,Makanan,Pengeluaran Makanan
+194,1,False,130909,2020-08-20,Perawatan Diri,Pengeluaran Perawatan Diri
+195,1,False,164114,2020-08-28,Perawatan Diri,Pengeluaran Perawatan Diri
+196,1,False,170356,2020-08-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+197,1,False,158393,2020-08-26,Hiburan,Pengeluaran Hiburan
+198,1,False,171970,2020-08-04,Pakaian,Pengeluaran Pakaian
+199,1,True,4865376,2020-09-01,Gaji,Gaji Bulanan Utama
+200,1,False,132605,2020-09-17,Asuransi,Pengeluaran Asuransi
+201,1,False,125155,2020-09-13,Makanan,Pengeluaran Makanan
+202,1,False,154438,2020-09-26,Makanan,Pengeluaran Makanan
+203,1,False,143299,2020-09-27,Perawatan Diri,Pengeluaran Perawatan Diri
+204,1,False,145007,2020-09-10,Kesehatan,Pengeluaran Kesehatan
+205,1,False,121867,2020-09-02,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+206,1,False,131109,2020-09-28,Makanan,Pengeluaran Makanan
+207,1,False,141630,2020-09-06,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+208,1,False,117645,2020-09-11,Perawatan Diri,Pengeluaran Perawatan Diri
+209,1,False,134366,2020-09-20,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+210,1,False,146159,2020-09-20,Utilitas,Pengeluaran Utilitas
+211,1,False,120788,2020-09-12,Edukasi,Pengeluaran Edukasi
+212,1,False,126717,2020-09-22,Perjalanan,Pengeluaran Perjalanan
+213,1,False,148848,2020-09-03,Perjalanan,Pengeluaran Perjalanan
+214,1,False,118284,2020-09-01,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+215,1,False,126913,2020-09-03,Donasi/Amal,Pengeluaran Donasi/Amal
+216,1,False,143566,2020-09-25,Kesehatan,Pengeluaran Kesehatan
+217,1,False,130044,2020-09-26,Belanja,Pengeluaran Belanja
+218,1,False,142978,2020-09-03,Pakaian,Pengeluaran Pakaian
+219,1,False,121097,2020-09-12,Pakaian,Pengeluaran Pakaian
+220,1,False,144705,2020-09-09,Perjalanan,Pengeluaran Perjalanan
+221,1,False,133029,2020-09-24,Asuransi,Pengeluaran Asuransi
+222,1,False,137735,2020-09-20,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+223,1,False,128545,2020-09-22,Perawatan Diri,Pengeluaran Perawatan Diri
+224,1,False,133812,2020-09-15,Rumah Tangga,Pengeluaran Rumah Tangga
+225,1,True,5238897,2020-10-01,Gaji,Gaji Bulanan Utama
+226,1,False,153173,2020-10-25,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+227,1,False,191727,2020-10-13,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+228,1,False,184349,2020-10-20,Utilitas,Pengeluaran Utilitas
+229,1,False,186971,2020-10-13,Makanan,Pengeluaran Makanan
+230,1,False,166215,2020-10-01,Makanan,Pengeluaran Makanan
+231,1,False,189143,2020-10-17,Asuransi,Pengeluaran Asuransi
+232,1,False,190189,2020-10-07,Transportasi,Pengeluaran Transportasi
+233,1,False,185015,2020-10-05,Asuransi,Pengeluaran Asuransi
+234,1,False,156347,2020-10-27,Kesehatan,Pengeluaran Kesehatan
+235,1,False,195055,2020-10-20,Transportasi,Pengeluaran Transportasi
+236,1,False,186844,2020-10-19,Transportasi,Pengeluaran Transportasi
+237,1,False,149392,2020-10-13,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+238,1,False,148822,2020-10-20,Belanja,Pengeluaran Belanja
+239,1,False,167993,2020-10-07,Rumah Tangga,Pengeluaran Rumah Tangga
+240,1,False,162260,2020-10-28,Perjalanan,Pengeluaran Perjalanan
+241,1,False,171043,2020-10-01,Transportasi,Pengeluaran Transportasi
+242,1,False,164688,2020-10-09,Perawatan Diri,Pengeluaran Perawatan Diri
+243,1,False,200650,2020-10-07,Utilitas,Pengeluaran Utilitas
+244,1,False,162333,2020-10-16,Transportasi,Pengeluaran Transportasi
+245,1,False,162986,2020-10-04,Pakaian,Pengeluaran Pakaian
+246,1,False,198585,2020-10-04,Pakaian,Pengeluaran Pakaian
+247,1,True,5327054,2020-11-01,Gaji,Gaji Bulanan Utama
+248,1,True,326162,2020-11-14,Bonus,Pendapatan Tambahan
+249,1,False,214669,2020-11-01,Belanja,Pengeluaran Belanja
+250,1,False,236275,2020-11-18,Rumah Tangga,Pengeluaran Rumah Tangga
+251,1,False,223481,2020-11-19,Transportasi,Pengeluaran Transportasi
+252,1,False,202404,2020-11-02,Kesehatan,Pengeluaran Kesehatan
+253,1,False,262957,2020-11-19,Transportasi,Pengeluaran Transportasi
+254,1,False,204133,2020-11-01,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+255,1,False,211392,2020-11-27,Asuransi,Pengeluaran Asuransi
+256,1,False,242087,2020-11-19,Asuransi,Pengeluaran Asuransi
+257,1,False,227729,2020-11-26,Perjalanan,Pengeluaran Perjalanan
+258,1,False,257678,2020-11-22,Pakaian,Pengeluaran Pakaian
+259,1,False,220011,2020-11-09,Makanan,Pengeluaran Makanan
+260,1,False,256375,2020-11-28,Asuransi,Pengeluaran Asuransi
+261,1,False,258308,2020-11-11,Hiburan,Pengeluaran Hiburan
+262,1,False,231084,2020-11-24,Transportasi,Pengeluaran Transportasi
+263,1,False,226761,2020-11-03,Tagihan,Pengeluaran Tagihan
+264,1,False,235758,2020-11-28,Asuransi,Pengeluaran Asuransi
+265,1,False,513122,2020-11-20,Rumah Tangga,Pengeluaran Ekstra
+266,1,True,5358800,2020-12-01,Gaji,Gaji Bulanan Utama
+267,1,False,188931,2020-12-15,Perawatan Diri,Pengeluaran Perawatan Diri
+268,1,False,219340,2020-12-13,Utilitas,Pengeluaran Utilitas
+269,1,False,193876,2020-12-22,Pakaian,Pengeluaran Pakaian
+270,1,False,226812,2020-12-26,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+271,1,False,199521,2020-12-05,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+272,1,False,177750,2020-12-26,Rumah Tangga,Pengeluaran Rumah Tangga
+273,1,False,208664,2020-12-22,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+274,1,False,239633,2020-12-13,Asuransi,Pengeluaran Asuransi
+275,1,False,236272,2020-12-10,Hiburan,Pengeluaran Hiburan
+276,1,False,179599,2020-12-08,Transportasi,Pengeluaran Transportasi
+277,1,False,231422,2020-12-16,Kesehatan,Pengeluaran Kesehatan
+278,1,False,231078,2020-12-02,Perawatan Diri,Pengeluaran Perawatan Diri
+279,1,False,180861,2020-12-12,Asuransi,Pengeluaran Asuransi
+280,1,False,218973,2020-12-25,Pakaian,Pengeluaran Pakaian
+281,1,False,192514,2020-12-27,Donasi/Amal,Pengeluaran Donasi/Amal
+282,1,False,226291,2020-12-14,Asuransi,Pengeluaran Asuransi
+283,1,False,202631,2020-12-18,Tagihan,Pengeluaran Tagihan
+284,1,False,189256,2020-12-25,Hiburan,Pengeluaran Hiburan
+285,1,True,5047211,2021-01-01,Gaji,Gaji Bulanan Utama
+286,1,True,209191,2021-01-25,Bonus,Pendapatan Tambahan
+287,1,False,138818,2021-01-21,Utilitas,Pengeluaran Utilitas
+288,1,False,131220,2021-01-05,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+289,1,False,135485,2021-01-11,Hiburan,Pengeluaran Hiburan
+290,1,False,112894,2021-01-12,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+291,1,False,137601,2021-01-23,Pakaian,Pengeluaran Pakaian
+292,1,False,131509,2021-01-06,Pakaian,Pengeluaran Pakaian
+293,1,False,110998,2021-01-10,Belanja,Pengeluaran Belanja
+294,1,False,108805,2021-01-21,Hiburan,Pengeluaran Hiburan
+295,1,False,130717,2021-01-26,Pakaian,Pengeluaran Pakaian
+296,1,False,123731,2021-01-27,Belanja,Pengeluaran Belanja
+297,1,False,115803,2021-01-05,Tagihan,Pengeluaran Tagihan
+298,1,False,134454,2021-01-05,Donasi/Amal,Pengeluaran Donasi/Amal
+299,1,False,131019,2021-01-05,Edukasi,Pengeluaran Edukasi
+300,1,False,142334,2021-01-04,Makanan,Pengeluaran Makanan
+301,1,False,145066,2021-01-13,Perjalanan,Pengeluaran Perjalanan
+302,1,False,138317,2021-01-06,Rumah Tangga,Pengeluaran Rumah Tangga
+303,1,False,126012,2021-01-27,Belanja,Pengeluaran Belanja
+304,1,False,108513,2021-01-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+305,1,False,142807,2021-01-01,Edukasi,Pengeluaran Edukasi
+306,1,False,126649,2021-01-29,Edukasi,Pengeluaran Edukasi
+307,1,False,132004,2021-01-16,Belanja,Pengeluaran Belanja
+308,1,False,126398,2021-01-03,Hiburan,Pengeluaran Hiburan
+309,1,False,136313,2021-01-10,Donasi/Amal,Pengeluaran Donasi/Amal
+310,1,False,135969,2021-01-12,Asuransi,Pengeluaran Asuransi
+311,1,False,107414,2021-01-18,Donasi/Amal,Pengeluaran Donasi/Amal
+312,1,False,144389,2021-01-05,Pakaian,Pengeluaran Pakaian
+313,1,False,114001,2021-01-08,Pakaian,Pengeluaran Pakaian
+314,1,False,141494,2021-01-18,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+315,1,False,394332,2021-01-15,Hiburan,Pengeluaran Ekstra
+316,1,True,4665385,2021-02-01,Gaji,Gaji Bulanan Utama
+317,1,False,189965,2021-02-24,Belanja,Pengeluaran Belanja
+318,1,False,164866,2021-02-04,Tagihan,Pengeluaran Tagihan
+319,1,False,196745,2021-03-01,Perjalanan,Pengeluaran Perjalanan
+320,1,False,147045,2021-02-09,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+321,1,False,163588,2021-02-28,Edukasi,Pengeluaran Edukasi
+322,1,False,155598,2021-02-25,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+323,1,False,151913,2021-02-14,Donasi/Amal,Pengeluaran Donasi/Amal
+324,1,False,187371,2021-02-07,Asuransi,Pengeluaran Asuransi
+325,1,False,177436,2021-02-23,Rumah Tangga,Pengeluaran Rumah Tangga
+326,1,False,172460,2021-02-01,Donasi/Amal,Pengeluaran Donasi/Amal
+327,1,False,163005,2021-02-19,Edukasi,Pengeluaran Edukasi
+328,1,False,176469,2021-02-20,Rumah Tangga,Pengeluaran Rumah Tangga
+329,1,False,153520,2021-02-11,Rumah Tangga,Pengeluaran Rumah Tangga
+330,1,False,195785,2021-02-13,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+331,1,False,189530,2021-02-12,Belanja,Pengeluaran Belanja
+332,1,False,188725,2021-02-06,Donasi/Amal,Pengeluaran Donasi/Amal
+333,1,False,159375,2021-02-06,Asuransi,Pengeluaran Asuransi
+334,1,False,156645,2021-02-11,Edukasi,Pengeluaran Edukasi
+335,1,False,172651,2021-02-23,Kesehatan,Pengeluaran Kesehatan
+336,1,True,4919377,2021-03-01,Gaji,Gaji Bulanan Utama
+337,1,True,202740,2021-03-24,Bonus,Pendapatan Tambahan
+338,1,False,165868,2021-03-08,Pakaian,Pengeluaran Pakaian
+339,1,False,190147,2021-03-06,Donasi/Amal,Pengeluaran Donasi/Amal
+340,1,False,202460,2021-03-01,Rumah Tangga,Pengeluaran Rumah Tangga
+341,1,False,204831,2021-03-02,Rumah Tangga,Pengeluaran Rumah Tangga
+342,1,False,162457,2021-03-28,Tagihan,Pengeluaran Tagihan
+343,1,False,184279,2021-03-12,Rumah Tangga,Pengeluaran Rumah Tangga
+344,1,False,202684,2021-03-24,Donasi/Amal,Pengeluaran Donasi/Amal
+345,1,False,196593,2021-03-01,Makanan,Pengeluaran Makanan
+346,1,False,205293,2021-03-16,Utilitas,Pengeluaran Utilitas
+347,1,False,206956,2021-03-03,Hiburan,Pengeluaran Hiburan
+348,1,False,168562,2021-03-27,Perawatan Diri,Pengeluaran Perawatan Diri
+349,1,False,171287,2021-03-05,Hiburan,Pengeluaran Hiburan
+350,1,False,202164,2021-03-05,Makanan,Pengeluaran Makanan
+351,1,False,206564,2021-03-23,Makanan,Pengeluaran Makanan
+352,1,False,187041,2021-03-17,Asuransi,Pengeluaran Asuransi
+353,1,False,198376,2021-03-18,Perawatan Diri,Pengeluaran Perawatan Diri
+354,1,False,194758,2021-03-14,Edukasi,Pengeluaran Edukasi
+355,1,False,161070,2021-03-08,Asuransi,Pengeluaran Asuransi
+356,1,False,182243,2021-03-01,Donasi/Amal,Pengeluaran Donasi/Amal
+357,1,False,3373115,2021-03-04,Lain-lain,Pengeluaran Tak Terduga / Anomali Besar
+358,1,True,5248429,2021-04-01,Gaji,Gaji Bulanan Utama
+359,1,True,627211,2021-04-17,Freelance,Pendapatan Tambahan
+360,1,False,154371,2021-04-24,Asuransi,Pengeluaran Asuransi
+361,1,False,162335,2021-04-02,Rumah Tangga,Pengeluaran Rumah Tangga
+362,1,False,132151,2021-04-11,Tagihan,Pengeluaran Tagihan
+363,1,False,143523,2021-04-19,Asuransi,Pengeluaran Asuransi
+364,1,False,125493,2021-04-09,Perawatan Diri,Pengeluaran Perawatan Diri
+365,1,False,161575,2021-04-15,Rumah Tangga,Pengeluaran Rumah Tangga
+366,1,False,151422,2021-04-26,Makanan,Pengeluaran Makanan
+367,1,False,154866,2021-04-12,Pakaian,Pengeluaran Pakaian
+368,1,False,150105,2021-04-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+369,1,False,147626,2021-04-11,Edukasi,Pengeluaran Edukasi
+370,1,False,128600,2021-04-16,Tagihan,Pengeluaran Tagihan
+371,1,False,140345,2021-04-24,Asuransi,Pengeluaran Asuransi
+372,1,False,159631,2021-04-24,Tagihan,Pengeluaran Tagihan
+373,1,False,139800,2021-04-04,Donasi/Amal,Pengeluaran Donasi/Amal
+374,1,False,157800,2021-04-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+375,1,False,149597,2021-04-01,Tagihan,Pengeluaran Tagihan
+376,1,False,134445,2021-04-19,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+377,1,False,154197,2021-04-08,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+378,1,False,162274,2021-04-28,Edukasi,Pengeluaran Edukasi
+379,1,False,147090,2021-04-14,Edukasi,Pengeluaran Edukasi
+380,1,False,166633,2021-04-15,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+381,1,False,133385,2021-04-22,Perawatan Diri,Pengeluaran Perawatan Diri
+382,1,False,135175,2021-04-03,Transportasi,Pengeluaran Transportasi
+383,1,False,143995,2021-04-11,Tagihan,Pengeluaran Tagihan
+384,1,False,129612,2021-04-28,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+385,1,True,5009757,2021-05-01,Gaji,Gaji Bulanan Utama
+386,1,False,182735,2021-05-26,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+387,1,False,210785,2021-05-07,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+388,1,False,199021,2021-05-07,Donasi/Amal,Pengeluaran Donasi/Amal
+389,1,False,191362,2021-05-02,Hiburan,Pengeluaran Hiburan
+390,1,False,223694,2021-05-13,Transportasi,Pengeluaran Transportasi
+391,1,False,206192,2021-05-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+392,1,False,188641,2021-05-04,Pakaian,Pengeluaran Pakaian
+393,1,False,209000,2021-05-22,Donasi/Amal,Pengeluaran Donasi/Amal
+394,1,False,180200,2021-05-17,Perawatan Diri,Pengeluaran Perawatan Diri
+395,1,False,218987,2021-05-28,Makanan,Pengeluaran Makanan
+396,1,False,193476,2021-05-19,Pakaian,Pengeluaran Pakaian
+397,1,False,195846,2021-05-19,Donasi/Amal,Pengeluaran Donasi/Amal
+398,1,False,185315,2021-05-07,Makanan,Pengeluaran Makanan
+399,1,False,219718,2021-05-10,Makanan,Pengeluaran Makanan
+400,1,False,179249,2021-05-08,Makanan,Pengeluaran Makanan
+401,1,False,209198,2021-05-22,Kesehatan,Pengeluaran Kesehatan
+402,1,False,170851,2021-05-29,Perjalanan,Pengeluaran Perjalanan
+403,1,False,188129,2021-05-05,Perjalanan,Pengeluaran Perjalanan
+404,1,True,4920215,2021-06-01,Gaji,Gaji Bulanan Utama
+405,1,True,369984,2021-06-12,Freelance,Pendapatan Tambahan
+406,1,False,254762,2021-06-18,Belanja,Pengeluaran Belanja
+407,1,False,199048,2021-06-03,Belanja,Pengeluaran Belanja
+408,1,False,262401,2021-06-02,Edukasi,Pengeluaran Edukasi
+409,1,False,245341,2021-06-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+410,1,False,238487,2021-06-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+411,1,False,212169,2021-06-07,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+412,1,False,213888,2021-06-20,Donasi/Amal,Pengeluaran Donasi/Amal
+413,1,False,233180,2021-06-14,Kesehatan,Pengeluaran Kesehatan
+414,1,False,238538,2021-06-19,Transportasi,Pengeluaran Transportasi
+415,1,False,236478,2021-06-11,Makanan,Pengeluaran Makanan
+416,1,False,248682,2021-06-13,Belanja,Pengeluaran Belanja
+417,1,False,250699,2021-06-15,Tagihan,Pengeluaran Tagihan
+418,1,False,196198,2021-06-21,Transportasi,Pengeluaran Transportasi
+419,1,False,202228,2021-06-22,Asuransi,Pengeluaran Asuransi
+420,1,False,208822,2021-06-06,Makanan,Pengeluaran Makanan
+421,1,True,5023141,2021-07-01,Gaji,Gaji Bulanan Utama
+422,1,False,141875,2021-07-28,Donasi/Amal,Pengeluaran Donasi/Amal
+423,1,False,136382,2021-07-04,Asuransi,Pengeluaran Asuransi
+424,1,False,132109,2021-07-25,Perjalanan,Pengeluaran Perjalanan
+425,1,False,129031,2021-07-15,Belanja,Pengeluaran Belanja
+426,1,False,122291,2021-07-23,Perawatan Diri,Pengeluaran Perawatan Diri
+427,1,False,131817,2021-07-01,Perjalanan,Pengeluaran Perjalanan
+428,1,False,136209,2021-07-07,Makanan,Pengeluaran Makanan
+429,1,False,131795,2021-07-03,Pakaian,Pengeluaran Pakaian
+430,1,False,116021,2021-07-19,Perawatan Diri,Pengeluaran Perawatan Diri
+431,1,False,110899,2021-07-06,Pakaian,Pengeluaran Pakaian
+432,1,False,120913,2021-07-11,Perawatan Diri,Pengeluaran Perawatan Diri
+433,1,False,140832,2021-07-18,Transportasi,Pengeluaran Transportasi
+434,1,False,127998,2021-07-20,Asuransi,Pengeluaran Asuransi
+435,1,False,121722,2021-07-17,Hiburan,Pengeluaran Hiburan
+436,1,False,136051,2021-07-10,Transportasi,Pengeluaran Transportasi
+437,1,False,121776,2021-07-16,Belanja,Pengeluaran Belanja
+438,1,False,111026,2021-07-22,Perawatan Diri,Pengeluaran Perawatan Diri
+439,1,False,126159,2021-07-27,Donasi/Amal,Pengeluaran Donasi/Amal
+440,1,False,138327,2021-07-24,Tagihan,Pengeluaran Tagihan
+441,1,False,148786,2021-07-27,Tagihan,Pengeluaran Tagihan
+442,1,False,147607,2021-07-09,Utilitas,Pengeluaran Utilitas
+443,1,False,121441,2021-07-23,Makanan,Pengeluaran Makanan
+444,1,False,126009,2021-07-05,Asuransi,Pengeluaran Asuransi
+445,1,False,132705,2021-07-13,Rumah Tangga,Pengeluaran Rumah Tangga
+446,1,False,140266,2021-07-05,Kesehatan,Pengeluaran Kesehatan
+447,1,False,133375,2021-07-13,Makanan,Pengeluaran Makanan
+448,1,False,130351,2021-07-02,Perawatan Diri,Pengeluaran Perawatan Diri
+449,1,True,5316585,2021-08-01,Gaji,Gaji Bulanan Utama
+450,1,False,158805,2021-08-18,Edukasi,Pengeluaran Edukasi
+451,1,False,179728,2021-08-13,Hiburan,Pengeluaran Hiburan
+452,1,False,202026,2021-08-01,Utilitas,Pengeluaran Utilitas
+453,1,False,174126,2021-08-07,Kesehatan,Pengeluaran Kesehatan
+454,1,False,200319,2021-08-27,Kesehatan,Pengeluaran Kesehatan
+455,1,False,182212,2021-08-20,Makanan,Pengeluaran Makanan
+456,1,False,190311,2021-08-10,Edukasi,Pengeluaran Edukasi
+457,1,False,203494,2021-08-26,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+458,1,False,164978,2021-08-01,Tagihan,Pengeluaran Tagihan
+459,1,False,205149,2021-08-28,Transportasi,Pengeluaran Transportasi
+460,1,False,185773,2021-08-28,Rumah Tangga,Pengeluaran Rumah Tangga
+461,1,False,192772,2021-08-13,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+462,1,False,186233,2021-08-21,Hiburan,Pengeluaran Hiburan
+463,1,False,165425,2021-08-21,Hiburan,Pengeluaran Hiburan
+464,1,False,203438,2021-08-06,Perjalanan,Pengeluaran Perjalanan
+465,1,False,199914,2021-08-06,Tagihan,Pengeluaran Tagihan
+466,1,False,206333,2021-08-08,Belanja,Pengeluaran Belanja
+467,1,False,195036,2021-08-07,Asuransi,Pengeluaran Asuransi
+468,1,False,172597,2021-08-19,Tagihan,Pengeluaran Tagihan
+469,1,False,176009,2021-08-12,Makanan,Pengeluaran Makanan
+470,1,True,4684817,2021-09-01,Gaji,Gaji Bulanan Utama
+471,1,False,134698,2021-09-19,Perawatan Diri,Pengeluaran Perawatan Diri
+472,1,False,134614,2021-09-02,Edukasi,Pengeluaran Edukasi
+473,1,False,109994,2021-09-25,Tagihan,Pengeluaran Tagihan
+474,1,False,135826,2021-09-17,Asuransi,Pengeluaran Asuransi
+475,1,False,122056,2021-09-04,Edukasi,Pengeluaran Edukasi
+476,1,False,131677,2021-09-01,Asuransi,Pengeluaran Asuransi
+477,1,False,117134,2021-09-17,Hiburan,Pengeluaran Hiburan
+478,1,False,112976,2021-09-09,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+479,1,False,122944,2021-09-19,Belanja,Pengeluaran Belanja
+480,1,False,106857,2021-09-09,Transportasi,Pengeluaran Transportasi
+481,1,False,136787,2021-09-17,Asuransi,Pengeluaran Asuransi
+482,1,False,124127,2021-09-04,Hiburan,Pengeluaran Hiburan
+483,1,False,138425,2021-09-19,Kesehatan,Pengeluaran Kesehatan
+484,1,False,106850,2021-09-12,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+485,1,False,131942,2021-09-12,Perawatan Diri,Pengeluaran Perawatan Diri
+486,1,False,105963,2021-09-03,Asuransi,Pengeluaran Asuransi
+487,1,False,114105,2021-09-16,Perjalanan,Pengeluaran Perjalanan
+488,1,False,113438,2021-09-25,Perjalanan,Pengeluaran Perjalanan
+489,1,False,121894,2021-09-21,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+490,1,False,138257,2021-09-25,Kesehatan,Pengeluaran Kesehatan
+491,1,False,128312,2021-09-23,Perawatan Diri,Pengeluaran Perawatan Diri
+492,1,False,127160,2021-09-01,Tagihan,Pengeluaran Tagihan
+493,1,False,122525,2021-09-15,Hiburan,Pengeluaran Hiburan
+494,1,False,120629,2021-09-08,Rumah Tangga,Pengeluaran Rumah Tangga
+495,1,False,105365,2021-09-23,Pakaian,Pengeluaran Pakaian
+496,1,False,130980,2021-09-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+497,1,False,127905,2021-09-01,Pakaian,Pengeluaran Pakaian
+498,1,True,4982330,2021-10-01,Gaji,Gaji Bulanan Utama
+499,1,True,308660,2021-10-22,Freelance,Pendapatan Tambahan
+500,1,False,116132,2021-10-23,Asuransi,Pengeluaran Asuransi
+501,1,False,131513,2021-10-21,Edukasi,Pengeluaran Edukasi
+502,1,False,138137,2021-10-04,Belanja,Pengeluaran Belanja
+503,1,False,144925,2021-10-25,Utilitas,Pengeluaran Utilitas
+504,1,False,120960,2021-10-01,Edukasi,Pengeluaran Edukasi
+505,1,False,152546,2021-10-28,Tagihan,Pengeluaran Tagihan
+506,1,False,145529,2021-10-11,Hiburan,Pengeluaran Hiburan
+507,1,False,151246,2021-10-07,Belanja,Pengeluaran Belanja
+508,1,False,121170,2021-10-14,Perawatan Diri,Pengeluaran Perawatan Diri
+509,1,False,139065,2021-10-20,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+510,1,False,128215,2021-10-06,Utilitas,Pengeluaran Utilitas
+511,1,False,126493,2021-10-07,Pakaian,Pengeluaran Pakaian
+512,1,False,138451,2021-10-28,Rumah Tangga,Pengeluaran Rumah Tangga
+513,1,False,122508,2021-10-27,Perjalanan,Pengeluaran Perjalanan
+514,1,False,134922,2021-10-09,Utilitas,Pengeluaran Utilitas
+515,1,False,127585,2021-10-11,Transportasi,Pengeluaran Transportasi
+516,1,False,153799,2021-10-11,Transportasi,Pengeluaran Transportasi
+517,1,False,150195,2021-10-18,Pakaian,Pengeluaran Pakaian
+518,1,False,129577,2021-10-17,Perjalanan,Pengeluaran Perjalanan
+519,1,False,119145,2021-10-06,Hiburan,Pengeluaran Hiburan
+520,1,False,114207,2021-10-01,Perawatan Diri,Pengeluaran Perawatan Diri
+521,1,False,152956,2021-10-20,Perjalanan,Pengeluaran Perjalanan
+522,1,False,129866,2021-10-27,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+523,1,False,140427,2021-10-03,Tagihan,Pengeluaran Tagihan
+524,1,False,114762,2021-10-19,Pakaian,Pengeluaran Pakaian
+525,1,False,151680,2021-10-27,Makanan,Pengeluaran Makanan
+526,1,False,4388316,2021-10-05,Kesehatan,Pengeluaran Tak Terduga / Anomali Besar
+527,1,True,5256037,2021-11-01,Gaji,Gaji Bulanan Utama
+528,1,False,186777,2021-11-06,Donasi/Amal,Pengeluaran Donasi/Amal
+529,1,False,208084,2021-11-19,Perjalanan,Pengeluaran Perjalanan
+530,1,False,182962,2021-11-11,Hiburan,Pengeluaran Hiburan
+531,1,False,198742,2021-11-13,Belanja,Pengeluaran Belanja
+532,1,False,170890,2021-11-10,Belanja,Pengeluaran Belanja
+533,1,False,218956,2021-11-11,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+534,1,False,173406,2021-11-16,Makanan,Pengeluaran Makanan
+535,1,False,191210,2021-11-22,Edukasi,Pengeluaran Edukasi
+536,1,False,168167,2021-11-06,Asuransi,Pengeluaran Asuransi
+537,1,False,168985,2021-11-01,Rumah Tangga,Pengeluaran Rumah Tangga
+538,1,False,186082,2021-11-10,Tagihan,Pengeluaran Tagihan
+539,1,False,191547,2021-11-29,Hiburan,Pengeluaran Hiburan
+540,1,False,217183,2021-11-28,Edukasi,Pengeluaran Edukasi
+541,1,False,213678,2021-11-03,Makanan,Pengeluaran Makanan
+542,1,False,220130,2021-11-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+543,1,False,208458,2021-11-17,Belanja,Pengeluaran Belanja
+544,1,False,194588,2021-11-16,Perawatan Diri,Pengeluaran Perawatan Diri
+545,1,False,206666,2021-11-15,Kesehatan,Pengeluaran Kesehatan
+546,1,False,184627,2021-11-12,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+547,1,True,4543024,2021-12-01,Gaji,Gaji Bulanan Utama
+548,1,True,681132,2021-12-11,Freelance,Pendapatan Tambahan
+549,1,False,104257,2021-12-24,Donasi/Amal,Pengeluaran Donasi/Amal
+550,1,False,99550,2021-12-23,Asuransi,Pengeluaran Asuransi
+551,1,False,105059,2021-12-12,Utilitas,Pengeluaran Utilitas
+552,1,False,97834,2021-12-09,Hiburan,Pengeluaran Hiburan
+553,1,False,110535,2021-12-02,Tagihan,Pengeluaran Tagihan
+554,1,False,98858,2021-12-11,Rumah Tangga,Pengeluaran Rumah Tangga
+555,1,False,111911,2021-12-22,Transportasi,Pengeluaran Transportasi
+556,1,False,118283,2021-12-14,Asuransi,Pengeluaran Asuransi
+557,1,False,124185,2021-12-28,Utilitas,Pengeluaran Utilitas
+558,1,False,120860,2021-12-25,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+559,1,False,122244,2021-12-14,Edukasi,Pengeluaran Edukasi
+560,1,False,109734,2021-12-18,Makanan,Pengeluaran Makanan
+561,1,False,104637,2021-12-02,Utilitas,Pengeluaran Utilitas
+562,1,False,127502,2021-12-11,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+563,1,False,108397,2021-12-15,Pakaian,Pengeluaran Pakaian
+564,1,False,123621,2021-12-22,Perjalanan,Pengeluaran Perjalanan
+565,1,False,97085,2021-12-08,Transportasi,Pengeluaran Transportasi
+566,1,False,100504,2021-12-16,Belanja,Pengeluaran Belanja
+567,1,False,112530,2021-12-24,Asuransi,Pengeluaran Asuransi
+568,1,False,109664,2021-12-14,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+569,1,False,99634,2021-12-20,Asuransi,Pengeluaran Asuransi
+570,1,False,129042,2021-12-11,Donasi/Amal,Pengeluaran Donasi/Amal
+571,1,False,123984,2021-12-13,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+572,1,False,122491,2021-12-02,Hiburan,Pengeluaran Hiburan
+573,1,False,99875,2021-12-13,Edukasi,Pengeluaran Edukasi
+574,1,False,111147,2021-12-06,Rumah Tangga,Pengeluaran Rumah Tangga
+575,1,False,102013,2021-12-25,Donasi/Amal,Pengeluaran Donasi/Amal
+576,1,False,114294,2021-12-26,Perawatan Diri,Pengeluaran Perawatan Diri
+577,1,True,5461957,2022-01-01,Gaji,Gaji Bulanan Utama
+578,1,False,163097,2022-01-08,Tagihan,Pengeluaran Tagihan
+579,1,False,190386,2022-01-16,Edukasi,Pengeluaran Edukasi
+580,1,False,215005,2022-01-28,Makanan,Pengeluaran Makanan
+581,1,False,188768,2022-01-25,Makanan,Pengeluaran Makanan
+582,1,False,212144,2022-01-23,Utilitas,Pengeluaran Utilitas
+583,1,False,185753,2022-01-22,Belanja,Pengeluaran Belanja
+584,1,False,197395,2022-01-22,Transportasi,Pengeluaran Transportasi
+585,1,False,174277,2022-01-22,Donasi/Amal,Pengeluaran Donasi/Amal
+586,1,False,188899,2022-01-26,Hiburan,Pengeluaran Hiburan
+587,1,False,209019,2022-01-05,Perawatan Diri,Pengeluaran Perawatan Diri
+588,1,False,201815,2022-01-17,Asuransi,Pengeluaran Asuransi
+589,1,False,166529,2022-01-11,Tagihan,Pengeluaran Tagihan
+590,1,False,183115,2022-01-20,Makanan,Pengeluaran Makanan
+591,1,False,172401,2022-01-14,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+592,1,False,203766,2022-01-11,Pakaian,Pengeluaran Pakaian
+593,1,False,215900,2022-01-06,Makanan,Pengeluaran Makanan
+594,1,False,167609,2022-01-04,Utilitas,Pengeluaran Utilitas
+595,1,False,172466,2022-01-17,Perjalanan,Pengeluaran Perjalanan
+596,1,False,191216,2022-01-08,Makanan,Pengeluaran Makanan
+597,1,False,189513,2022-01-08,Hiburan,Pengeluaran Hiburan
+598,1,True,5299149,2022-02-01,Gaji,Gaji Bulanan Utama
+599,1,False,117161,2022-02-08,Utilitas,Pengeluaran Utilitas
+600,1,False,116961,2022-02-28,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+601,1,False,152109,2022-02-13,Pakaian,Pengeluaran Pakaian
+602,1,False,116412,2022-02-03,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+603,1,False,120570,2022-02-05,Transportasi,Pengeluaran Transportasi
+604,1,False,121203,2022-02-08,Hiburan,Pengeluaran Hiburan
+605,1,False,132273,2022-02-14,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+606,1,False,143626,2022-02-27,Makanan,Pengeluaran Makanan
+607,1,False,145850,2022-02-19,Utilitas,Pengeluaran Utilitas
+608,1,False,126573,2022-02-22,Utilitas,Pengeluaran Utilitas
+609,1,False,127202,2022-02-15,Kesehatan,Pengeluaran Kesehatan
+610,1,False,123003,2022-02-13,Pakaian,Pengeluaran Pakaian
+611,1,False,142320,2022-02-24,Belanja,Pengeluaran Belanja
+612,1,False,140267,2022-02-20,Perjalanan,Pengeluaran Perjalanan
+613,1,False,142717,2022-02-01,Belanja,Pengeluaran Belanja
+614,1,False,119637,2022-02-06,Pakaian,Pengeluaran Pakaian
+615,1,False,130269,2022-02-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+616,1,False,127227,2022-02-15,Rumah Tangga,Pengeluaran Rumah Tangga
+617,1,False,120630,2022-02-26,Transportasi,Pengeluaran Transportasi
+618,1,False,135602,2022-02-04,Perjalanan,Pengeluaran Perjalanan
+619,1,False,125041,2022-02-09,Perjalanan,Pengeluaran Perjalanan
+620,1,False,123790,2022-02-22,Belanja,Pengeluaran Belanja
+621,1,False,129868,2022-02-15,Edukasi,Pengeluaran Edukasi
+622,1,False,141665,2022-02-15,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+623,1,False,149309,2022-02-25,Makanan,Pengeluaran Makanan
+624,1,False,125030,2022-02-14,Pakaian,Pengeluaran Pakaian
+625,1,False,140562,2022-02-19,Transportasi,Pengeluaran Transportasi
+626,1,False,125300,2022-02-27,Hiburan,Pengeluaran Hiburan
+627,1,False,3598279,2022-02-22,Kesehatan,Pengeluaran Tak Terduga / Anomali Besar
+628,1,True,4626967,2022-03-01,Gaji,Gaji Bulanan Utama
+629,1,False,140128,2022-03-13,Hiburan,Pengeluaran Hiburan
+630,1,False,106364,2022-03-11,Kesehatan,Pengeluaran Kesehatan
+631,1,False,132371,2022-03-21,Perawatan Diri,Pengeluaran Perawatan Diri
+632,1,False,110687,2022-03-24,Tagihan,Pengeluaran Tagihan
+633,1,False,121510,2022-03-14,Pakaian,Pengeluaran Pakaian
+634,1,False,116483,2022-03-20,Hiburan,Pengeluaran Hiburan
+635,1,False,108421,2022-03-18,Asuransi,Pengeluaran Asuransi
+636,1,False,140900,2022-03-10,Pakaian,Pengeluaran Pakaian
+637,1,False,113719,2022-03-19,Rumah Tangga,Pengeluaran Rumah Tangga
+638,1,False,134616,2022-03-19,Transportasi,Pengeluaran Transportasi
+639,1,False,129476,2022-03-07,Kesehatan,Pengeluaran Kesehatan
+640,1,False,126792,2022-03-01,Belanja,Pengeluaran Belanja
+641,1,False,115923,2022-03-23,Transportasi,Pengeluaran Transportasi
+642,1,False,111071,2022-03-03,Asuransi,Pengeluaran Asuransi
+643,1,False,142143,2022-03-22,Kesehatan,Pengeluaran Kesehatan
+644,1,False,113600,2022-03-26,Hiburan,Pengeluaran Hiburan
+645,1,False,109510,2022-03-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+646,1,False,114260,2022-03-07,Pakaian,Pengeluaran Pakaian
+647,1,False,139236,2022-03-05,Perawatan Diri,Pengeluaran Perawatan Diri
+648,1,False,127685,2022-03-28,Hiburan,Pengeluaran Hiburan
+649,1,False,114336,2022-03-04,Perjalanan,Pengeluaran Perjalanan
+650,1,False,131348,2022-03-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+651,1,False,135422,2022-03-01,Donasi/Amal,Pengeluaran Donasi/Amal
+652,1,False,133186,2022-03-19,Edukasi,Pengeluaran Edukasi
+653,1,False,117039,2022-03-24,Asuransi,Pengeluaran Asuransi
+654,1,False,106491,2022-03-06,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+655,1,True,5145993,2022-04-01,Gaji,Gaji Bulanan Utama
+656,1,False,224939,2022-04-29,Transportasi,Pengeluaran Transportasi
+657,1,False,243455,2022-04-19,Utilitas,Pengeluaran Utilitas
+658,1,False,199928,2022-04-02,Kesehatan,Pengeluaran Kesehatan
+659,1,False,223605,2022-04-01,Makanan,Pengeluaran Makanan
+660,1,False,225359,2022-04-07,Belanja,Pengeluaran Belanja
+661,1,False,239464,2022-04-19,Hiburan,Pengeluaran Hiburan
+662,1,False,233541,2022-04-25,Kesehatan,Pengeluaran Kesehatan
+663,1,False,210912,2022-04-04,Asuransi,Pengeluaran Asuransi
+664,1,False,216943,2022-04-06,Makanan,Pengeluaran Makanan
+665,1,False,221571,2022-04-08,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+666,1,False,221444,2022-04-24,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+667,1,False,209407,2022-04-03,Tagihan,Pengeluaran Tagihan
+668,1,False,230436,2022-04-20,Makanan,Pengeluaran Makanan
+669,1,False,229411,2022-04-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+670,1,False,200347,2022-04-05,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+671,1,False,217278,2022-04-18,Tagihan,Pengeluaran Tagihan
+672,1,False,242140,2022-04-15,Tagihan,Pengeluaran Tagihan
+673,1,True,5106278,2022-05-01,Gaji,Gaji Bulanan Utama
+674,1,False,248821,2022-05-12,Asuransi,Pengeluaran Asuransi
+675,1,False,216501,2022-05-07,Edukasi,Pengeluaran Edukasi
+676,1,False,249445,2022-05-08,Perawatan Diri,Pengeluaran Perawatan Diri
+677,1,False,207599,2022-05-20,Kesehatan,Pengeluaran Kesehatan
+678,1,False,202129,2022-05-13,Makanan,Pengeluaran Makanan
+679,1,False,196176,2022-05-21,Belanja,Pengeluaran Belanja
+680,1,False,249935,2022-05-15,Pakaian,Pengeluaran Pakaian
+681,1,False,206937,2022-05-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+682,1,False,249557,2022-05-11,Kesehatan,Pengeluaran Kesehatan
+683,1,False,240512,2022-05-29,Perjalanan,Pengeluaran Perjalanan
+684,1,False,196734,2022-05-23,Hiburan,Pengeluaran Hiburan
+685,1,False,212193,2022-05-17,Transportasi,Pengeluaran Transportasi
+686,1,False,243724,2022-05-21,Hiburan,Pengeluaran Hiburan
+687,1,False,211646,2022-05-13,Asuransi,Pengeluaran Asuransi
+688,1,False,207265,2022-05-13,Donasi/Amal,Pengeluaran Donasi/Amal
+689,1,False,254549,2022-05-19,Tagihan,Pengeluaran Tagihan
+690,1,True,4603483,2022-06-01,Gaji,Gaji Bulanan Utama
+691,1,False,135503,2022-06-21,Belanja,Pengeluaran Belanja
+692,1,False,125148,2022-06-19,Hiburan,Pengeluaran Hiburan
+693,1,False,121192,2022-06-20,Hiburan,Pengeluaran Hiburan
+694,1,False,124585,2022-06-07,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+695,1,False,125092,2022-06-28,Edukasi,Pengeluaran Edukasi
+696,1,False,141847,2022-06-01,Perawatan Diri,Pengeluaran Perawatan Diri
+697,1,False,127272,2022-06-04,Edukasi,Pengeluaran Edukasi
+698,1,False,130034,2022-06-29,Hiburan,Pengeluaran Hiburan
+699,1,False,134621,2022-06-07,Tagihan,Pengeluaran Tagihan
+700,1,False,131742,2022-06-12,Perjalanan,Pengeluaran Perjalanan
+701,1,False,149737,2022-06-02,Belanja,Pengeluaran Belanja
+702,1,False,135876,2022-06-11,Pakaian,Pengeluaran Pakaian
+703,1,False,151459,2022-06-17,Kesehatan,Pengeluaran Kesehatan
+704,1,False,154325,2022-06-04,Kesehatan,Pengeluaran Kesehatan
+705,1,False,145118,2022-06-02,Pakaian,Pengeluaran Pakaian
+706,1,False,135206,2022-06-10,Donasi/Amal,Pengeluaran Donasi/Amal
+707,1,False,141661,2022-06-29,Tagihan,Pengeluaran Tagihan
+708,1,False,131667,2022-06-12,Donasi/Amal,Pengeluaran Donasi/Amal
+709,1,False,140566,2022-06-05,Hiburan,Pengeluaran Hiburan
+710,1,False,138259,2022-06-28,Utilitas,Pengeluaran Utilitas
+711,1,False,137373,2022-06-22,Donasi/Amal,Pengeluaran Donasi/Amal
+712,1,False,133313,2022-06-08,Donasi/Amal,Pengeluaran Donasi/Amal
+713,1,False,128997,2022-06-23,Hiburan,Pengeluaran Hiburan
+714,1,True,5228816,2022-07-01,Gaji,Gaji Bulanan Utama
+715,1,False,152042,2022-07-02,Edukasi,Pengeluaran Edukasi
+716,1,False,133134,2022-07-29,Perawatan Diri,Pengeluaran Perawatan Diri
+717,1,False,129658,2022-07-19,Donasi/Amal,Pengeluaran Donasi/Amal
+718,1,False,140593,2022-07-29,Hiburan,Pengeluaran Hiburan
+719,1,False,172258,2022-07-12,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+720,1,False,143559,2022-07-28,Perawatan Diri,Pengeluaran Perawatan Diri
+721,1,False,163626,2022-07-03,Tagihan,Pengeluaran Tagihan
+722,1,False,140244,2022-07-06,Transportasi,Pengeluaran Transportasi
+723,1,False,172987,2022-07-03,Donasi/Amal,Pengeluaran Donasi/Amal
+724,1,False,133744,2022-07-16,Belanja,Pengeluaran Belanja
+725,1,False,171952,2022-07-23,Edukasi,Pengeluaran Edukasi
+726,1,False,167929,2022-07-17,Utilitas,Pengeluaran Utilitas
+727,1,False,134327,2022-07-17,Tagihan,Pengeluaran Tagihan
+728,1,False,158994,2022-07-11,Pakaian,Pengeluaran Pakaian
+729,1,False,146486,2022-07-04,Perjalanan,Pengeluaran Perjalanan
+730,1,False,158391,2022-07-09,Rumah Tangga,Pengeluaran Rumah Tangga
+731,1,False,143617,2022-07-23,Tagihan,Pengeluaran Tagihan
+732,1,False,138168,2022-07-09,Pakaian,Pengeluaran Pakaian
+733,1,False,147349,2022-07-21,Asuransi,Pengeluaran Asuransi
+734,1,False,129855,2022-07-28,Hiburan,Pengeluaran Hiburan
+735,1,False,165743,2022-07-07,Makanan,Pengeluaran Makanan
+736,1,False,161043,2022-07-06,Asuransi,Pengeluaran Asuransi
+737,1,False,148884,2022-07-18,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+738,1,False,153770,2022-07-14,Makanan,Pengeluaran Makanan
+739,1,True,4814666,2022-08-01,Gaji,Gaji Bulanan Utama
+740,1,False,179201,2022-08-24,Edukasi,Pengeluaran Edukasi
+741,1,False,161087,2022-08-14,Perawatan Diri,Pengeluaran Perawatan Diri
+742,1,False,152139,2022-08-08,Makanan,Pengeluaran Makanan
+743,1,False,157552,2022-08-21,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+744,1,False,199089,2022-08-09,Donasi/Amal,Pengeluaran Donasi/Amal
+745,1,False,186604,2022-08-18,Belanja,Pengeluaran Belanja
+746,1,False,178645,2022-08-21,Asuransi,Pengeluaran Asuransi
+747,1,False,188428,2022-08-07,Belanja,Pengeluaran Belanja
+748,1,False,155280,2022-08-03,Asuransi,Pengeluaran Asuransi
+749,1,False,193235,2022-08-02,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+750,1,False,180858,2022-08-06,Transportasi,Pengeluaran Transportasi
+751,1,False,176213,2022-08-03,Asuransi,Pengeluaran Asuransi
+752,1,False,187631,2022-08-08,Rumah Tangga,Pengeluaran Rumah Tangga
+753,1,False,190922,2022-08-10,Donasi/Amal,Pengeluaran Donasi/Amal
+754,1,False,158712,2022-08-03,Hiburan,Pengeluaran Hiburan
+755,1,False,203697,2022-08-21,Perjalanan,Pengeluaran Perjalanan
+756,1,False,198315,2022-08-14,Asuransi,Pengeluaran Asuransi
+757,1,False,152561,2022-08-24,Transportasi,Pengeluaran Transportasi
+758,1,False,181728,2022-08-24,Makanan,Pengeluaran Makanan
+759,1,True,5280734,2022-09-01,Gaji,Gaji Bulanan Utama
+760,1,False,118560,2022-09-01,Belanja,Pengeluaran Belanja
+761,1,False,117288,2022-09-25,Tagihan,Pengeluaran Tagihan
+762,1,False,111884,2022-09-11,Perawatan Diri,Pengeluaran Perawatan Diri
+763,1,False,119036,2022-09-29,Pakaian,Pengeluaran Pakaian
+764,1,False,121326,2022-09-11,Asuransi,Pengeluaran Asuransi
+765,1,False,126491,2022-09-13,Perjalanan,Pengeluaran Perjalanan
+766,1,False,112566,2022-09-29,Utilitas,Pengeluaran Utilitas
+767,1,False,124213,2022-09-23,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+768,1,False,117207,2022-09-24,Donasi/Amal,Pengeluaran Donasi/Amal
+769,1,False,130865,2022-09-18,Asuransi,Pengeluaran Asuransi
+770,1,False,137934,2022-09-22,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+771,1,False,117089,2022-09-11,Utilitas,Pengeluaran Utilitas
+772,1,False,119829,2022-09-25,Belanja,Pengeluaran Belanja
+773,1,False,138853,2022-09-01,Rumah Tangga,Pengeluaran Rumah Tangga
+774,1,False,121841,2022-09-23,Kesehatan,Pengeluaran Kesehatan
+775,1,False,117876,2022-09-11,Hiburan,Pengeluaran Hiburan
+776,1,False,109308,2022-09-29,Donasi/Amal,Pengeluaran Donasi/Amal
+777,1,False,135614,2022-09-25,Kesehatan,Pengeluaran Kesehatan
+778,1,False,137811,2022-09-17,Asuransi,Pengeluaran Asuransi
+779,1,False,144031,2022-09-22,Belanja,Pengeluaran Belanja
+780,1,False,137334,2022-09-01,Asuransi,Pengeluaran Asuransi
+781,1,False,134192,2022-09-15,Rumah Tangga,Pengeluaran Rumah Tangga
+782,1,False,127792,2022-09-01,Asuransi,Pengeluaran Asuransi
+783,1,False,125072,2022-09-25,Kesehatan,Pengeluaran Kesehatan
+784,1,False,140608,2022-09-04,Utilitas,Pengeluaran Utilitas
+785,1,False,144485,2022-09-28,Rumah Tangga,Pengeluaran Rumah Tangga
+786,1,False,118515,2022-09-17,Asuransi,Pengeluaran Asuransi
+787,1,False,132814,2022-09-10,Transportasi,Pengeluaran Transportasi
+788,1,False,121265,2022-09-13,Perawatan Diri,Pengeluaran Perawatan Diri
+789,1,True,5130894,2022-10-01,Gaji,Gaji Bulanan Utama
+790,1,False,216515,2022-10-08,Pakaian,Pengeluaran Pakaian
+791,1,False,177577,2022-10-16,Transportasi,Pengeluaran Transportasi
+792,1,False,200804,2022-10-24,Utilitas,Pengeluaran Utilitas
+793,1,False,192398,2022-10-10,Hiburan,Pengeluaran Hiburan
+794,1,False,175680,2022-10-16,Donasi/Amal,Pengeluaran Donasi/Amal
+795,1,False,214155,2022-10-26,Transportasi,Pengeluaran Transportasi
+796,1,False,202895,2022-10-28,Donasi/Amal,Pengeluaran Donasi/Amal
+797,1,False,172528,2022-10-03,Transportasi,Pengeluaran Transportasi
+798,1,False,184862,2022-10-16,Makanan,Pengeluaran Makanan
+799,1,False,169951,2022-10-06,Perjalanan,Pengeluaran Perjalanan
+800,1,False,218528,2022-10-05,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+801,1,False,179113,2022-10-12,Utilitas,Pengeluaran Utilitas
+802,1,False,200893,2022-10-13,Hiburan,Pengeluaran Hiburan
+803,1,False,211212,2022-10-12,Donasi/Amal,Pengeluaran Donasi/Amal
+804,1,False,190505,2022-10-03,Tagihan,Pengeluaran Tagihan
+805,1,False,198118,2022-10-24,Kesehatan,Pengeluaran Kesehatan
+806,1,False,172311,2022-10-02,Utilitas,Pengeluaran Utilitas
+807,1,False,187364,2022-10-07,Hiburan,Pengeluaran Hiburan
+808,1,False,3678128,2022-10-29,Kesehatan,Pengeluaran Tak Terduga / Anomali Besar
+809,1,True,5208856,2022-11-01,Gaji,Gaji Bulanan Utama
+810,1,False,112992,2022-11-01,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+811,1,False,130285,2022-11-03,Pakaian,Pengeluaran Pakaian
+812,1,False,146129,2022-11-10,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+813,1,False,122729,2022-11-03,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+814,1,False,122331,2022-11-14,Belanja,Pengeluaran Belanja
+815,1,False,146245,2022-11-01,Belanja,Pengeluaran Belanja
+816,1,False,139065,2022-11-27,Edukasi,Pengeluaran Edukasi
+817,1,False,138393,2022-11-24,Donasi/Amal,Pengeluaran Donasi/Amal
+818,1,False,148970,2022-11-04,Edukasi,Pengeluaran Edukasi
+819,1,False,135224,2022-11-19,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+820,1,False,120711,2022-11-29,Transportasi,Pengeluaran Transportasi
+821,1,False,127383,2022-11-19,Edukasi,Pengeluaran Edukasi
+822,1,False,139023,2022-11-04,Tagihan,Pengeluaran Tagihan
+823,1,False,133124,2022-11-16,Hiburan,Pengeluaran Hiburan
+824,1,False,140999,2022-11-05,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+825,1,False,124247,2022-11-15,Belanja,Pengeluaran Belanja
+826,1,False,144885,2022-11-16,Perjalanan,Pengeluaran Perjalanan
+827,1,False,126400,2022-11-19,Pakaian,Pengeluaran Pakaian
+828,1,False,119142,2022-11-27,Hiburan,Pengeluaran Hiburan
+829,1,False,111496,2022-11-08,Transportasi,Pengeluaran Transportasi
+830,1,False,117773,2022-11-02,Utilitas,Pengeluaran Utilitas
+831,1,False,131847,2022-11-02,Perjalanan,Pengeluaran Perjalanan
+832,1,False,131004,2022-11-20,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+833,1,False,126173,2022-11-13,Belanja,Pengeluaran Belanja
+834,1,False,126201,2022-11-27,Utilitas,Pengeluaran Utilitas
+835,1,False,141948,2022-11-18,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+836,1,False,111033,2022-11-24,Perawatan Diri,Pengeluaran Perawatan Diri
+837,1,False,135814,2022-11-12,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+838,1,True,5327615,2022-12-01,Gaji,Gaji Bulanan Utama
+839,1,False,224449,2022-12-11,Transportasi,Pengeluaran Transportasi
+840,1,False,244473,2022-12-02,Makanan,Pengeluaran Makanan
+841,1,False,239542,2022-12-16,Perjalanan,Pengeluaran Perjalanan
+842,1,False,248912,2022-12-16,Hiburan,Pengeluaran Hiburan
+843,1,False,262317,2022-12-27,Kesehatan,Pengeluaran Kesehatan
+844,1,False,242444,2022-12-15,Rumah Tangga,Pengeluaran Rumah Tangga
+845,1,False,210105,2022-12-15,Edukasi,Pengeluaran Edukasi
+846,1,False,255053,2022-12-06,Kesehatan,Pengeluaran Kesehatan
+847,1,False,233798,2022-12-20,Belanja,Pengeluaran Belanja
+848,1,False,207831,2022-12-08,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+849,1,False,210463,2022-12-06,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+850,1,False,225819,2022-12-16,Tagihan,Pengeluaran Tagihan
+851,1,False,226282,2022-12-19,Transportasi,Pengeluaran Transportasi
+852,1,False,253473,2022-12-08,Kesehatan,Pengeluaran Kesehatan
+853,1,False,253320,2022-12-03,Pakaian,Pengeluaran Pakaian
+854,1,False,256195,2022-12-25,Pakaian,Pengeluaran Pakaian
+855,1,True,5378754,2023-01-01,Gaji,Gaji Bulanan Utama
+856,1,True,590830,2023-01-18,Freelance,Pendapatan Tambahan
+857,1,False,131469,2023-01-26,Rumah Tangga,Pengeluaran Rumah Tangga
+858,1,False,144395,2023-01-12,Perjalanan,Pengeluaran Perjalanan
+859,1,False,141116,2023-01-07,Edukasi,Pengeluaran Edukasi
+860,1,False,152987,2023-01-29,Donasi/Amal,Pengeluaran Donasi/Amal
+861,1,False,153917,2023-01-07,Hiburan,Pengeluaran Hiburan
+862,1,False,121525,2023-01-07,Makanan,Pengeluaran Makanan
+863,1,False,121534,2023-01-12,Tagihan,Pengeluaran Tagihan
+864,1,False,138636,2023-01-12,Utilitas,Pengeluaran Utilitas
+865,1,False,139135,2023-01-28,Kesehatan,Pengeluaran Kesehatan
+866,1,False,130627,2023-01-04,Kesehatan,Pengeluaran Kesehatan
+867,1,False,143185,2023-01-10,Transportasi,Pengeluaran Transportasi
+868,1,False,157387,2023-01-26,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+869,1,False,141259,2023-01-04,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+870,1,False,120837,2023-01-28,Transportasi,Pengeluaran Transportasi
+871,1,False,128829,2023-01-23,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+872,1,False,135364,2023-01-05,Transportasi,Pengeluaran Transportasi
+873,1,False,119230,2023-01-24,Rumah Tangga,Pengeluaran Rumah Tangga
+874,1,False,131293,2023-01-13,Perjalanan,Pengeluaran Perjalanan
+875,1,False,131884,2023-01-06,Donasi/Amal,Pengeluaran Donasi/Amal
+876,1,False,159017,2023-01-07,Pakaian,Pengeluaran Pakaian
+877,1,False,144200,2023-01-01,Makanan,Pengeluaran Makanan
+878,1,False,128894,2023-01-13,Asuransi,Pengeluaran Asuransi
+879,1,False,133115,2023-01-25,Kesehatan,Pengeluaran Kesehatan
+880,1,False,145464,2023-01-16,Asuransi,Pengeluaran Asuransi
+881,1,False,120548,2023-01-21,Hiburan,Pengeluaran Hiburan
+882,1,False,147472,2023-01-21,Pakaian,Pengeluaran Pakaian
+883,1,False,127845,2023-01-08,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+884,1,True,4830901,2023-02-01,Gaji,Gaji Bulanan Utama
+885,1,False,169674,2023-02-20,Tagihan,Pengeluaran Tagihan
+886,1,False,157019,2023-02-18,Pakaian,Pengeluaran Pakaian
+887,1,False,187639,2023-02-03,Belanja,Pengeluaran Belanja
+888,1,False,196565,2023-02-13,Edukasi,Pengeluaran Edukasi
+889,1,False,168354,2023-02-20,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+890,1,False,161732,2023-02-19,Tagihan,Pengeluaran Tagihan
+891,1,False,202124,2023-02-04,Makanan,Pengeluaran Makanan
+892,1,False,167027,2023-02-21,Edukasi,Pengeluaran Edukasi
+893,1,False,183327,2023-02-26,Utilitas,Pengeluaran Utilitas
+894,1,False,155065,2023-02-03,Tagihan,Pengeluaran Tagihan
+895,1,False,165115,2023-02-15,Tagihan,Pengeluaran Tagihan
+896,1,False,166895,2023-02-24,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+897,1,False,165860,2023-02-19,Kesehatan,Pengeluaran Kesehatan
+898,1,False,155275,2023-02-06,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+899,1,False,199488,2023-02-11,Perawatan Diri,Pengeluaran Perawatan Diri
+900,1,False,178788,2023-02-07,Donasi/Amal,Pengeluaran Donasi/Amal
+901,1,False,190140,2023-02-22,Edukasi,Pengeluaran Edukasi
+902,1,False,193673,2023-02-05,Transportasi,Pengeluaran Transportasi
+903,1,False,185536,2023-02-06,Asuransi,Pengeluaran Asuransi
+904,1,False,408979,2023-02-16,Donasi/Amal,Pengeluaran Ekstra
+905,1,True,5470821,2023-03-01,Gaji,Gaji Bulanan Utama
+906,1,False,147707,2023-03-20,Hiburan,Pengeluaran Hiburan
+907,1,False,134866,2023-03-21,Perjalanan,Pengeluaran Perjalanan
+908,1,False,145238,2023-03-23,Transportasi,Pengeluaran Transportasi
+909,1,False,142082,2023-03-13,Utilitas,Pengeluaran Utilitas
+910,1,False,155890,2023-03-29,Kesehatan,Pengeluaran Kesehatan
+911,1,False,154555,2023-03-09,Perawatan Diri,Pengeluaran Perawatan Diri
+912,1,False,137835,2023-03-10,Donasi/Amal,Pengeluaran Donasi/Amal
+913,1,False,152668,2023-03-28,Asuransi,Pengeluaran Asuransi
+914,1,False,140123,2023-03-05,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+915,1,False,168322,2023-03-01,Makanan,Pengeluaran Makanan
+916,1,False,148268,2023-03-10,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+917,1,False,132241,2023-03-23,Utilitas,Pengeluaran Utilitas
+918,1,False,138365,2023-03-12,Hiburan,Pengeluaran Hiburan
+919,1,False,156280,2023-03-27,Perawatan Diri,Pengeluaran Perawatan Diri
+920,1,False,158110,2023-03-29,Donasi/Amal,Pengeluaran Donasi/Amal
+921,1,False,171785,2023-03-25,Hiburan,Pengeluaran Hiburan
+922,1,False,131859,2023-03-01,Tagihan,Pengeluaran Tagihan
+923,1,False,147847,2023-03-03,Pakaian,Pengeluaran Pakaian
+924,1,False,138215,2023-03-23,Rumah Tangga,Pengeluaran Rumah Tangga
+925,1,False,138764,2023-03-05,Asuransi,Pengeluaran Asuransi
+926,1,False,137809,2023-03-14,Rumah Tangga,Pengeluaran Rumah Tangga
+927,1,False,137708,2023-03-17,Belanja,Pengeluaran Belanja
+928,1,False,138141,2023-03-05,Asuransi,Pengeluaran Asuransi
+929,1,False,135438,2023-03-07,Hiburan,Pengeluaran Hiburan
+930,1,False,147968,2023-03-19,Transportasi,Pengeluaran Transportasi
+931,1,True,5028072,2023-04-01,Gaji,Gaji Bulanan Utama
+932,1,False,149646,2023-04-16,Transportasi,Pengeluaran Transportasi
+933,1,False,170282,2023-04-18,Asuransi,Pengeluaran Asuransi
+934,1,False,177291,2023-04-28,Belanja,Pengeluaran Belanja
+935,1,False,177740,2023-04-20,Utilitas,Pengeluaran Utilitas
+936,1,False,150799,2023-04-16,Belanja,Pengeluaran Belanja
+937,1,False,139624,2023-04-29,Perjalanan,Pengeluaran Perjalanan
+938,1,False,167779,2023-04-01,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+939,1,False,168170,2023-04-01,Edukasi,Pengeluaran Edukasi
+940,1,False,140288,2023-04-15,Edukasi,Pengeluaran Edukasi
+941,1,False,160607,2023-04-04,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+942,1,False,139202,2023-04-24,Kesehatan,Pengeluaran Kesehatan
+943,1,False,180286,2023-04-13,Asuransi,Pengeluaran Asuransi
+944,1,False,154293,2023-04-02,Donasi/Amal,Pengeluaran Donasi/Amal
+945,1,False,144429,2023-04-05,Perjalanan,Pengeluaran Perjalanan
+946,1,False,160965,2023-04-04,Hiburan,Pengeluaran Hiburan
+947,1,False,167775,2023-04-15,Rumah Tangga,Pengeluaran Rumah Tangga
+948,1,False,178513,2023-04-19,Tagihan,Pengeluaran Tagihan
+949,1,False,175002,2023-04-19,Transportasi,Pengeluaran Transportasi
+950,1,False,171673,2023-04-14,Makanan,Pengeluaran Makanan
+951,1,False,138853,2023-04-26,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+952,1,False,162817,2023-04-24,Kesehatan,Pengeluaran Kesehatan
+953,1,False,155011,2023-04-09,Pakaian,Pengeluaran Pakaian
+954,1,True,4805016,2023-05-01,Gaji,Gaji Bulanan Utama
+955,1,False,149923,2023-05-26,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+956,1,False,142039,2023-05-09,Pakaian,Pengeluaran Pakaian
+957,1,False,150717,2023-05-26,Perawatan Diri,Pengeluaran Perawatan Diri
+958,1,False,159864,2023-05-01,Makanan,Pengeluaran Makanan
+959,1,False,127772,2023-05-18,Belanja,Pengeluaran Belanja
+960,1,False,152844,2023-05-18,Tagihan,Pengeluaran Tagihan
+961,1,False,132808,2023-05-29,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+962,1,False,150737,2023-05-11,Belanja,Pengeluaran Belanja
+963,1,False,146252,2023-05-15,Hiburan,Pengeluaran Hiburan
+964,1,False,126962,2023-05-07,Rumah Tangga,Pengeluaran Rumah Tangga
+965,1,False,134147,2023-05-20,Kesehatan,Pengeluaran Kesehatan
+966,1,False,165776,2023-05-21,Asuransi,Pengeluaran Asuransi
+967,1,False,142229,2023-05-26,Tagihan,Pengeluaran Tagihan
+968,1,False,147277,2023-05-23,Belanja,Pengeluaran Belanja
+969,1,False,136052,2023-05-17,Donasi/Amal,Pengeluaran Donasi/Amal
+970,1,False,124442,2023-05-06,Asuransi,Pengeluaran Asuransi
+971,1,False,134806,2023-05-28,Tagihan,Pengeluaran Tagihan
+972,1,False,151743,2023-05-23,Perawatan Diri,Pengeluaran Perawatan Diri
+973,1,False,130163,2023-05-11,Donasi/Amal,Pengeluaran Donasi/Amal
+974,1,False,148982,2023-05-08,Perjalanan,Pengeluaran Perjalanan
+975,1,False,162000,2023-05-12,Tagihan,Pengeluaran Tagihan
+976,1,False,136766,2023-05-16,Asuransi,Pengeluaran Asuransi
+977,1,False,139497,2023-05-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+978,1,False,578620,2023-05-23,Hiburan,Pengeluaran Ekstra
+979,1,True,4961301,2023-06-01,Gaji,Gaji Bulanan Utama
+980,1,True,504563,2023-06-15,Bonus,Pendapatan Tambahan
+981,1,False,145133,2023-06-17,Pakaian,Pengeluaran Pakaian
+982,1,False,146241,2023-06-03,Perjalanan,Pengeluaran Perjalanan
+983,1,False,115886,2023-06-11,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+984,1,False,142758,2023-06-07,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+985,1,False,143363,2023-06-28,Makanan,Pengeluaran Makanan
+986,1,False,140568,2023-06-12,Belanja,Pengeluaran Belanja
+987,1,False,124002,2023-06-08,Kesehatan,Pengeluaran Kesehatan
+988,1,False,137995,2023-06-14,Edukasi,Pengeluaran Edukasi
+989,1,False,117320,2023-06-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+990,1,False,125525,2023-06-21,Utilitas,Pengeluaran Utilitas
+991,1,False,142296,2023-06-21,Kesehatan,Pengeluaran Kesehatan
+992,1,False,140517,2023-06-19,Kesehatan,Pengeluaran Kesehatan
+993,1,False,134996,2023-06-22,Transportasi,Pengeluaran Transportasi
+994,1,False,135805,2023-06-02,Tagihan,Pengeluaran Tagihan
+995,1,False,123658,2023-06-24,Belanja,Pengeluaran Belanja
+996,1,False,146833,2023-06-08,Utilitas,Pengeluaran Utilitas
+997,1,False,124626,2023-06-25,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+998,1,False,143367,2023-06-06,Makanan,Pengeluaran Makanan
+999,1,False,143209,2023-06-03,Perawatan Diri,Pengeluaran Perawatan Diri
+1000,1,False,150689,2023-06-22,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1001,1,False,139190,2023-06-27,Makanan,Pengeluaran Makanan
+1002,1,False,141466,2023-06-03,Rumah Tangga,Pengeluaran Rumah Tangga
+1003,1,False,124774,2023-06-11,Utilitas,Pengeluaran Utilitas
+1004,1,False,114872,2023-06-09,Pakaian,Pengeluaran Pakaian
+1005,1,False,132500,2023-06-12,Asuransi,Pengeluaran Asuransi
+1006,1,False,138927,2023-06-11,Tagihan,Pengeluaran Tagihan
+1007,1,False,205783,2023-06-15,Pulsa/Paket Data,Pengeluaran Ekstra
+1008,1,True,5073554,2023-07-01,Gaji,Gaji Bulanan Utama
+1009,1,False,107970,2023-07-03,Asuransi,Pengeluaran Asuransi
+1010,1,False,117560,2023-07-23,Pakaian,Pengeluaran Pakaian
+1011,1,False,129906,2023-07-10,Makanan,Pengeluaran Makanan
+1012,1,False,134460,2023-07-03,Kesehatan,Pengeluaran Kesehatan
+1013,1,False,131814,2023-07-26,Edukasi,Pengeluaran Edukasi
+1014,1,False,132837,2023-07-03,Makanan,Pengeluaran Makanan
+1015,1,False,127204,2023-07-24,Hiburan,Pengeluaran Hiburan
+1016,1,False,104614,2023-07-21,Hiburan,Pengeluaran Hiburan
+1017,1,False,117010,2023-07-04,Tagihan,Pengeluaran Tagihan
+1018,1,False,111237,2023-07-05,Utilitas,Pengeluaran Utilitas
+1019,1,False,118386,2023-07-20,Pakaian,Pengeluaran Pakaian
+1020,1,False,118892,2023-07-27,Perawatan Diri,Pengeluaran Perawatan Diri
+1021,1,False,121756,2023-07-05,Transportasi,Pengeluaran Transportasi
+1022,1,False,107609,2023-07-10,Rumah Tangga,Pengeluaran Rumah Tangga
+1023,1,False,126889,2023-07-25,Rumah Tangga,Pengeluaran Rumah Tangga
+1024,1,False,109080,2023-07-20,Perjalanan,Pengeluaran Perjalanan
+1025,1,False,127885,2023-07-14,Tagihan,Pengeluaran Tagihan
+1026,1,False,122878,2023-07-01,Rumah Tangga,Pengeluaran Rumah Tangga
+1027,1,False,116420,2023-07-20,Makanan,Pengeluaran Makanan
+1028,1,False,114641,2023-07-10,Belanja,Pengeluaran Belanja
+1029,1,False,104893,2023-07-23,Transportasi,Pengeluaran Transportasi
+1030,1,False,103348,2023-07-15,Asuransi,Pengeluaran Asuransi
+1031,1,False,126988,2023-07-05,Asuransi,Pengeluaran Asuransi
+1032,1,False,114112,2023-07-17,Edukasi,Pengeluaran Edukasi
+1033,1,False,135120,2023-07-03,Edukasi,Pengeluaran Edukasi
+1034,1,False,124955,2023-07-14,Belanja,Pengeluaran Belanja
+1035,1,False,112852,2023-07-22,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1036,1,False,103536,2023-07-07,Utilitas,Pengeluaran Utilitas
+1037,1,False,116111,2023-07-17,Asuransi,Pengeluaran Asuransi
+1038,1,False,101149,2023-07-27,Utilitas,Pengeluaran Utilitas
+1039,1,True,4544401,2023-08-01,Gaji,Gaji Bulanan Utama
+1040,1,True,587129,2023-08-24,Bonus,Pendapatan Tambahan
+1041,1,False,240013,2023-08-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1042,1,False,187010,2023-08-04,Transportasi,Pengeluaran Transportasi
+1043,1,False,218606,2023-08-17,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1044,1,False,193052,2023-08-27,Perjalanan,Pengeluaran Perjalanan
+1045,1,False,212213,2023-08-21,Belanja,Pengeluaran Belanja
+1046,1,False,193678,2023-08-01,Perjalanan,Pengeluaran Perjalanan
+1047,1,False,238617,2023-08-04,Hiburan,Pengeluaran Hiburan
+1048,1,False,204299,2023-08-11,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1049,1,False,186483,2023-08-26,Kesehatan,Pengeluaran Kesehatan
+1050,1,False,222778,2023-08-19,Edukasi,Pengeluaran Edukasi
+1051,1,False,243509,2023-08-11,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1052,1,False,215023,2023-08-04,Asuransi,Pengeluaran Asuransi
+1053,1,False,184472,2023-08-09,Perawatan Diri,Pengeluaran Perawatan Diri
+1054,1,False,217109,2023-08-01,Kesehatan,Pengeluaran Kesehatan
+1055,1,False,195604,2023-08-15,Perawatan Diri,Pengeluaran Perawatan Diri
+1056,1,True,4934706,2023-09-01,Gaji,Gaji Bulanan Utama
+1057,1,False,171003,2023-09-28,Edukasi,Pengeluaran Edukasi
+1058,1,False,169427,2023-09-26,Hiburan,Pengeluaran Hiburan
+1059,1,False,183337,2023-09-01,Tagihan,Pengeluaran Tagihan
+1060,1,False,206021,2023-09-27,Hiburan,Pengeluaran Hiburan
+1061,1,False,194383,2023-09-19,Tagihan,Pengeluaran Tagihan
+1062,1,False,213039,2023-09-20,Tagihan,Pengeluaran Tagihan
+1063,1,False,207098,2023-09-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1064,1,False,170377,2023-09-29,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1065,1,False,170452,2023-09-24,Rumah Tangga,Pengeluaran Rumah Tangga
+1066,1,False,187606,2023-09-22,Utilitas,Pengeluaran Utilitas
+1067,1,False,214422,2023-09-12,Transportasi,Pengeluaran Transportasi
+1068,1,False,202941,2023-09-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1069,1,False,216520,2023-09-17,Asuransi,Pengeluaran Asuransi
+1070,1,False,219969,2023-09-24,Hiburan,Pengeluaran Hiburan
+1071,1,False,210616,2023-09-28,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1072,1,False,197053,2023-09-08,Makanan,Pengeluaran Makanan
+1073,1,False,194373,2023-09-27,Transportasi,Pengeluaran Transportasi
+1074,1,False,187332,2023-09-19,Pakaian,Pengeluaran Pakaian
+1075,1,False,803126,2023-09-26,Perawatan Diri,Pengeluaran Ekstra
+1076,1,True,4638608,2023-10-01,Gaji,Gaji Bulanan Utama
+1077,1,False,234711,2023-10-01,Pakaian,Pengeluaran Pakaian
+1078,1,False,242975,2023-10-26,Edukasi,Pengeluaran Edukasi
+1079,1,False,238162,2023-10-06,Kesehatan,Pengeluaran Kesehatan
+1080,1,False,221962,2023-10-27,Kesehatan,Pengeluaran Kesehatan
+1081,1,False,241654,2023-10-01,Utilitas,Pengeluaran Utilitas
+1082,1,False,226693,2023-10-22,Rumah Tangga,Pengeluaran Rumah Tangga
+1083,1,False,227156,2023-10-25,Transportasi,Pengeluaran Transportasi
+1084,1,False,224829,2023-10-15,Kesehatan,Pengeluaran Kesehatan
+1085,1,False,203110,2023-10-26,Makanan,Pengeluaran Makanan
+1086,1,False,192648,2023-10-17,Kesehatan,Pengeluaran Kesehatan
+1087,1,False,218344,2023-10-07,Perawatan Diri,Pengeluaran Perawatan Diri
+1088,1,False,197585,2023-10-09,Transportasi,Pengeluaran Transportasi
+1089,1,False,217602,2023-10-10,Transportasi,Pengeluaran Transportasi
+1090,1,False,209025,2023-10-14,Perawatan Diri,Pengeluaran Perawatan Diri
+1091,1,False,191398,2023-10-05,Transportasi,Pengeluaran Transportasi
+1092,1,False,415458,2023-10-25,Tagihan,Pengeluaran Ekstra
+1093,1,True,5088014,2023-11-01,Gaji,Gaji Bulanan Utama
+1094,1,False,220736,2023-11-11,Perawatan Diri,Pengeluaran Perawatan Diri
+1095,1,False,216591,2023-11-15,Transportasi,Pengeluaran Transportasi
+1096,1,False,197128,2023-11-06,Transportasi,Pengeluaran Transportasi
+1097,1,False,255441,2023-11-27,Pakaian,Pengeluaran Pakaian
+1098,1,False,220081,2023-11-19,Asuransi,Pengeluaran Asuransi
+1099,1,False,219142,2023-11-01,Makanan,Pengeluaran Makanan
+1100,1,False,196847,2023-11-05,Rumah Tangga,Pengeluaran Rumah Tangga
+1101,1,False,228520,2023-11-21,Perawatan Diri,Pengeluaran Perawatan Diri
+1102,1,False,253127,2023-11-04,Pakaian,Pengeluaran Pakaian
+1103,1,False,233359,2023-11-29,Transportasi,Pengeluaran Transportasi
+1104,1,False,244321,2023-11-18,Transportasi,Pengeluaran Transportasi
+1105,1,False,251227,2023-11-02,Makanan,Pengeluaran Makanan
+1106,1,False,234320,2023-11-13,Asuransi,Pengeluaran Asuransi
+1107,1,False,208388,2023-11-06,Pakaian,Pengeluaran Pakaian
+1108,1,False,215090,2023-11-29,Edukasi,Pengeluaran Edukasi
+1109,1,False,247307,2023-11-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1110,1,True,4747255,2023-12-01,Gaji,Gaji Bulanan Utama
+1111,1,True,810619,2023-12-13,Bonus,Pendapatan Tambahan
+1112,1,False,110426,2023-12-12,Transportasi,Pengeluaran Transportasi
+1113,1,False,129958,2023-12-08,Tagihan,Pengeluaran Tagihan
+1114,1,False,101563,2023-12-18,Tagihan,Pengeluaran Tagihan
+1115,1,False,117658,2023-12-19,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1116,1,False,129728,2023-12-26,Asuransi,Pengeluaran Asuransi
+1117,1,False,108426,2023-12-28,Transportasi,Pengeluaran Transportasi
+1118,1,False,112031,2023-12-16,Hiburan,Pengeluaran Hiburan
+1119,1,False,135911,2023-12-28,Rumah Tangga,Pengeluaran Rumah Tangga
+1120,1,False,106400,2023-12-02,Asuransi,Pengeluaran Asuransi
+1121,1,False,115840,2023-12-17,Hiburan,Pengeluaran Hiburan
+1122,1,False,112348,2023-12-11,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1123,1,False,134172,2023-12-15,Perjalanan,Pengeluaran Perjalanan
+1124,1,False,104226,2023-12-06,Perjalanan,Pengeluaran Perjalanan
+1125,1,False,103446,2023-12-11,Perawatan Diri,Pengeluaran Perawatan Diri
+1126,1,False,110676,2023-12-27,Asuransi,Pengeluaran Asuransi
+1127,1,False,130503,2023-12-27,Rumah Tangga,Pengeluaran Rumah Tangga
+1128,1,False,128015,2023-12-19,Edukasi,Pengeluaran Edukasi
+1129,1,False,119453,2023-12-17,Rumah Tangga,Pengeluaran Rumah Tangga
+1130,1,False,130930,2023-12-08,Rumah Tangga,Pengeluaran Rumah Tangga
+1131,1,False,122332,2023-12-14,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1132,1,False,106288,2023-12-24,Transportasi,Pengeluaran Transportasi
+1133,1,False,122244,2023-12-06,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1134,1,False,108874,2023-12-22,Kesehatan,Pengeluaran Kesehatan
+1135,1,False,124673,2023-12-12,Hiburan,Pengeluaran Hiburan
+1136,1,False,131148,2023-12-20,Edukasi,Pengeluaran Edukasi
+1137,1,False,112181,2023-12-28,Tagihan,Pengeluaran Tagihan
+1138,1,False,124055,2023-12-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1139,1,False,110037,2023-12-16,Perjalanan,Pengeluaran Perjalanan
+1140,1,True,4674431,2024-01-01,Gaji,Gaji Bulanan Utama
+1141,1,False,124833,2024-01-21,Rumah Tangga,Pengeluaran Rumah Tangga
+1142,1,False,124947,2024-01-26,Tagihan,Pengeluaran Tagihan
+1143,1,False,118078,2024-01-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1144,1,False,146809,2024-01-09,Perjalanan,Pengeluaran Perjalanan
+1145,1,False,153502,2024-01-18,Hiburan,Pengeluaran Hiburan
+1146,1,False,150277,2024-01-13,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1147,1,False,122653,2024-01-02,Kesehatan,Pengeluaran Kesehatan
+1148,1,False,149827,2024-01-09,Perjalanan,Pengeluaran Perjalanan
+1149,1,False,132994,2024-01-29,Transportasi,Pengeluaran Transportasi
+1150,1,False,141004,2024-01-19,Pakaian,Pengeluaran Pakaian
+1151,1,False,133546,2024-01-06,Hiburan,Pengeluaran Hiburan
+1152,1,False,124389,2024-01-04,Edukasi,Pengeluaran Edukasi
+1153,1,False,121314,2024-01-26,Transportasi,Pengeluaran Transportasi
+1154,1,False,143461,2024-01-12,Pakaian,Pengeluaran Pakaian
+1155,1,False,119655,2024-01-05,Kesehatan,Pengeluaran Kesehatan
+1156,1,False,144430,2024-01-14,Hiburan,Pengeluaran Hiburan
+1157,1,False,155927,2024-01-18,Perawatan Diri,Pengeluaran Perawatan Diri
+1158,1,False,151437,2024-01-24,Rumah Tangga,Pengeluaran Rumah Tangga
+1159,1,False,120836,2024-01-15,Rumah Tangga,Pengeluaran Rumah Tangga
+1160,1,False,128214,2024-01-12,Perawatan Diri,Pengeluaran Perawatan Diri
+1161,1,False,138036,2024-01-15,Makanan,Pengeluaran Makanan
+1162,1,False,144139,2024-01-21,Asuransi,Pengeluaran Asuransi
+1163,1,False,134086,2024-01-03,Makanan,Pengeluaran Makanan
+1164,1,False,153617,2024-01-21,Tagihan,Pengeluaran Tagihan
+1165,1,True,5254116,2024-02-01,Gaji,Gaji Bulanan Utama
+1166,1,False,140424,2024-02-12,Perawatan Diri,Pengeluaran Perawatan Diri
+1167,1,False,154588,2024-02-13,Hiburan,Pengeluaran Hiburan
+1168,1,False,153467,2024-02-07,Transportasi,Pengeluaran Transportasi
+1169,1,False,156651,2024-02-11,Hiburan,Pengeluaran Hiburan
+1170,1,False,153937,2024-02-13,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1171,1,False,153636,2024-02-24,Kesehatan,Pengeluaran Kesehatan
+1172,1,False,155339,2024-02-25,Perjalanan,Pengeluaran Perjalanan
+1173,1,False,157413,2024-02-20,Hiburan,Pengeluaran Hiburan
+1174,1,False,131483,2024-02-23,Kesehatan,Pengeluaran Kesehatan
+1175,1,False,151770,2024-02-26,Donasi/Amal,Pengeluaran Donasi/Amal
+1176,1,False,122488,2024-02-22,Transportasi,Pengeluaran Transportasi
+1177,1,False,156167,2024-02-16,Edukasi,Pengeluaran Edukasi
+1178,1,False,123190,2024-02-12,Asuransi,Pengeluaran Asuransi
+1179,1,False,135619,2024-02-14,Hiburan,Pengeluaran Hiburan
+1180,1,False,127221,2024-02-11,Tagihan,Pengeluaran Tagihan
+1181,1,False,127633,2024-02-18,Makanan,Pengeluaran Makanan
+1182,1,False,121910,2024-02-09,Perawatan Diri,Pengeluaran Perawatan Diri
+1183,1,False,148381,2024-02-24,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1184,1,False,157879,2024-02-23,Perawatan Diri,Pengeluaran Perawatan Diri
+1185,1,False,147926,2024-02-18,Pakaian,Pengeluaran Pakaian
+1186,1,False,123506,2024-02-10,Hiburan,Pengeluaran Hiburan
+1187,1,False,133287,2024-02-10,Makanan,Pengeluaran Makanan
+1188,1,False,125299,2024-02-07,Donasi/Amal,Pengeluaran Donasi/Amal
+1189,1,False,139708,2024-02-22,Belanja,Pengeluaran Belanja
+1190,1,False,157086,2024-02-20,Perjalanan,Pengeluaran Perjalanan
+1191,1,False,124058,2024-02-09,Perawatan Diri,Pengeluaran Perawatan Diri
+1192,1,True,5111981,2024-03-01,Gaji,Gaji Bulanan Utama
+1193,1,True,396008,2024-03-21,Freelance,Pendapatan Tambahan
+1194,1,False,212814,2024-03-27,Utilitas,Pengeluaran Utilitas
+1195,1,False,214663,2024-03-06,Kesehatan,Pengeluaran Kesehatan
+1196,1,False,215846,2024-03-02,Hiburan,Pengeluaran Hiburan
+1197,1,False,196013,2024-03-08,Asuransi,Pengeluaran Asuransi
+1198,1,False,174876,2024-03-24,Edukasi,Pengeluaran Edukasi
+1199,1,False,213262,2024-03-05,Perawatan Diri,Pengeluaran Perawatan Diri
+1200,1,False,193179,2024-03-21,Rumah Tangga,Pengeluaran Rumah Tangga
+1201,1,False,225906,2024-03-19,Makanan,Pengeluaran Makanan
+1202,1,False,201618,2024-03-22,Tagihan,Pengeluaran Tagihan
+1203,1,False,219613,2024-03-15,Belanja,Pengeluaran Belanja
+1204,1,False,182482,2024-03-15,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1205,1,False,194292,2024-03-09,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1206,1,False,200078,2024-03-22,Perjalanan,Pengeluaran Perjalanan
+1207,1,False,190990,2024-03-16,Transportasi,Pengeluaran Transportasi
+1208,1,False,186587,2024-03-06,Makanan,Pengeluaran Makanan
+1209,1,False,223675,2024-03-16,Perawatan Diri,Pengeluaran Perawatan Diri
+1210,1,False,184313,2024-03-25,Perjalanan,Pengeluaran Perjalanan
+1211,1,False,220658,2024-03-07,Hiburan,Pengeluaran Hiburan
+1212,1,True,4697188,2024-04-01,Gaji,Gaji Bulanan Utama
+1213,1,True,569500,2024-04-11,Bonus,Pendapatan Tambahan
+1214,1,False,129184,2024-04-04,Transportasi,Pengeluaran Transportasi
+1215,1,False,112174,2024-04-26,Tagihan,Pengeluaran Tagihan
+1216,1,False,144424,2024-04-19,Asuransi,Pengeluaran Asuransi
+1217,1,False,140140,2024-04-09,Asuransi,Pengeluaran Asuransi
+1218,1,False,136145,2024-04-24,Asuransi,Pengeluaran Asuransi
+1219,1,False,107826,2024-04-08,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1220,1,False,118260,2024-04-04,Transportasi,Pengeluaran Transportasi
+1221,1,False,117877,2024-04-22,Asuransi,Pengeluaran Asuransi
+1222,1,False,135600,2024-04-09,Hiburan,Pengeluaran Hiburan
+1223,1,False,109677,2024-04-04,Transportasi,Pengeluaran Transportasi
+1224,1,False,144744,2024-04-08,Utilitas,Pengeluaran Utilitas
+1225,1,False,131301,2024-04-19,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1226,1,False,110098,2024-04-14,Hiburan,Pengeluaran Hiburan
+1227,1,False,131760,2024-04-01,Belanja,Pengeluaran Belanja
+1228,1,False,131645,2024-04-22,Perjalanan,Pengeluaran Perjalanan
+1229,1,False,114656,2024-04-11,Perawatan Diri,Pengeluaran Perawatan Diri
+1230,1,False,121019,2024-04-10,Utilitas,Pengeluaran Utilitas
+1231,1,False,113574,2024-04-10,Transportasi,Pengeluaran Transportasi
+1232,1,False,126045,2024-04-17,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1233,1,False,112669,2024-04-07,Tagihan,Pengeluaran Tagihan
+1234,1,False,137070,2024-04-14,Edukasi,Pengeluaran Edukasi
+1235,1,False,107549,2024-04-28,Asuransi,Pengeluaran Asuransi
+1236,1,False,116919,2024-04-22,Perawatan Diri,Pengeluaran Perawatan Diri
+1237,1,False,135234,2024-04-16,Makanan,Pengeluaran Makanan
+1238,1,False,134289,2024-04-02,Tagihan,Pengeluaran Tagihan
+1239,1,False,133490,2024-04-29,Belanja,Pengeluaran Belanja
+1240,1,True,5147306,2024-05-01,Gaji,Gaji Bulanan Utama
+1241,1,False,158515,2024-05-09,Transportasi,Pengeluaran Transportasi
+1242,1,False,193373,2024-05-08,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1243,1,False,176851,2024-05-05,Transportasi,Pengeluaran Transportasi
+1244,1,False,153874,2024-05-14,Asuransi,Pengeluaran Asuransi
+1245,1,False,203446,2024-05-22,Hiburan,Pengeluaran Hiburan
+1246,1,False,191788,2024-05-08,Utilitas,Pengeluaran Utilitas
+1247,1,False,204625,2024-05-20,Perawatan Diri,Pengeluaran Perawatan Diri
+1248,1,False,161300,2024-05-14,Perjalanan,Pengeluaran Perjalanan
+1249,1,False,179930,2024-05-07,Pakaian,Pengeluaran Pakaian
+1250,1,False,179958,2024-05-01,Rumah Tangga,Pengeluaran Rumah Tangga
+1251,1,False,166659,2024-05-15,Perjalanan,Pengeluaran Perjalanan
+1252,1,False,170033,2024-05-10,Transportasi,Pengeluaran Transportasi
+1253,1,False,202920,2024-05-24,Rumah Tangga,Pengeluaran Rumah Tangga
+1254,1,False,185526,2024-05-12,Kesehatan,Pengeluaran Kesehatan
+1255,1,False,167141,2024-05-17,Transportasi,Pengeluaran Transportasi
+1256,1,False,176763,2024-05-12,Perjalanan,Pengeluaran Perjalanan
+1257,1,False,184585,2024-05-11,Donasi/Amal,Pengeluaran Donasi/Amal
+1258,1,False,206965,2024-05-16,Makanan,Pengeluaran Makanan
+1259,1,False,203376,2024-05-02,Utilitas,Pengeluaran Utilitas
+1260,1,False,170498,2024-05-03,Kesehatan,Pengeluaran Kesehatan
+1261,1,False,1011571,2024-05-03,Utilitas,Pengeluaran Ekstra
+1262,1,True,4904238,2024-06-01,Gaji,Gaji Bulanan Utama
+1263,1,False,110737,2024-06-26,Kesehatan,Pengeluaran Kesehatan
+1264,1,False,114789,2024-06-22,Utilitas,Pengeluaran Utilitas
+1265,1,False,121891,2024-06-04,Perjalanan,Pengeluaran Perjalanan
+1266,1,False,123774,2024-06-08,Utilitas,Pengeluaran Utilitas
+1267,1,False,122991,2024-06-10,Belanja,Pengeluaran Belanja
+1268,1,False,134579,2024-06-20,Pakaian,Pengeluaran Pakaian
+1269,1,False,110322,2024-06-06,Makanan,Pengeluaran Makanan
+1270,1,False,123881,2024-06-03,Edukasi,Pengeluaran Edukasi
+1271,1,False,113075,2024-06-23,Tagihan,Pengeluaran Tagihan
+1272,1,False,105848,2024-06-15,Rumah Tangga,Pengeluaran Rumah Tangga
+1273,1,False,122008,2024-06-07,Transportasi,Pengeluaran Transportasi
+1274,1,False,133643,2024-06-10,Perjalanan,Pengeluaran Perjalanan
+1275,1,False,118536,2024-06-05,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1276,1,False,115373,2024-06-19,Perawatan Diri,Pengeluaran Perawatan Diri
+1277,1,False,117626,2024-06-21,Belanja,Pengeluaran Belanja
+1278,1,False,114480,2024-06-13,Belanja,Pengeluaran Belanja
+1279,1,False,104798,2024-06-03,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1280,1,False,101689,2024-06-08,Hiburan,Pengeluaran Hiburan
+1281,1,False,118559,2024-06-29,Donasi/Amal,Pengeluaran Donasi/Amal
+1282,1,False,103300,2024-06-24,Perjalanan,Pengeluaran Perjalanan
+1283,1,False,110447,2024-06-01,Kesehatan,Pengeluaran Kesehatan
+1284,1,False,100706,2024-06-01,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1285,1,False,130296,2024-06-24,Tagihan,Pengeluaran Tagihan
+1286,1,False,128024,2024-06-23,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1287,1,False,108610,2024-06-17,Utilitas,Pengeluaran Utilitas
+1288,1,False,130418,2024-06-13,Perjalanan,Pengeluaran Perjalanan
+1289,1,False,130080,2024-06-29,Asuransi,Pengeluaran Asuransi
+1290,1,False,108564,2024-06-13,Utilitas,Pengeluaran Utilitas
+1291,1,False,134516,2024-06-19,Utilitas,Pengeluaran Utilitas
+1292,1,True,5484865,2024-07-01,Gaji,Gaji Bulanan Utama
+1293,1,True,105776,2024-07-22,Bonus,Pendapatan Tambahan
+1294,1,False,189145,2024-07-11,Rumah Tangga,Pengeluaran Rumah Tangga
+1295,1,False,191135,2024-07-15,Perjalanan,Pengeluaran Perjalanan
+1296,1,False,206225,2024-07-29,Perawatan Diri,Pengeluaran Perawatan Diri
+1297,1,False,186961,2024-07-21,Asuransi,Pengeluaran Asuransi
+1298,1,False,175102,2024-07-15,Perawatan Diri,Pengeluaran Perawatan Diri
+1299,1,False,171295,2024-07-20,Edukasi,Pengeluaran Edukasi
+1300,1,False,174553,2024-07-16,Belanja,Pengeluaran Belanja
+1301,1,False,194409,2024-07-26,Asuransi,Pengeluaran Asuransi
+1302,1,False,189034,2024-07-01,Kesehatan,Pengeluaran Kesehatan
+1303,1,False,191298,2024-07-18,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1304,1,False,204285,2024-07-16,Belanja,Pengeluaran Belanja
+1305,1,False,171676,2024-07-09,Kesehatan,Pengeluaran Kesehatan
+1306,1,False,158070,2024-07-05,Perawatan Diri,Pengeluaran Perawatan Diri
+1307,1,False,158308,2024-07-24,Kesehatan,Pengeluaran Kesehatan
+1308,1,False,156127,2024-07-27,Perjalanan,Pengeluaran Perjalanan
+1309,1,False,191387,2024-07-20,Perawatan Diri,Pengeluaran Perawatan Diri
+1310,1,False,157290,2024-07-06,Perjalanan,Pengeluaran Perjalanan
+1311,1,False,208399,2024-07-11,Hiburan,Pengeluaran Hiburan
+1312,1,False,206620,2024-07-17,Donasi/Amal,Pengeluaran Donasi/Amal
+1313,1,False,156752,2024-07-16,Donasi/Amal,Pengeluaran Donasi/Amal
+1314,1,False,199501,2024-07-27,Kesehatan,Pengeluaran Kesehatan
+1315,1,True,4978763,2024-08-01,Gaji,Gaji Bulanan Utama
+1316,1,False,190060,2024-08-14,Tagihan,Pengeluaran Tagihan
+1317,1,False,147630,2024-08-15,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1318,1,False,167988,2024-08-03,Rumah Tangga,Pengeluaran Rumah Tangga
+1319,1,False,168781,2024-08-10,Utilitas,Pengeluaran Utilitas
+1320,1,False,142563,2024-08-21,Donasi/Amal,Pengeluaran Donasi/Amal
+1321,1,False,189311,2024-08-27,Perjalanan,Pengeluaran Perjalanan
+1322,1,False,147513,2024-08-22,Tagihan,Pengeluaran Tagihan
+1323,1,False,145022,2024-08-25,Edukasi,Pengeluaran Edukasi
+1324,1,False,148724,2024-08-12,Perawatan Diri,Pengeluaran Perawatan Diri
+1325,1,False,169730,2024-08-21,Transportasi,Pengeluaran Transportasi
+1326,1,False,161319,2024-08-07,Donasi/Amal,Pengeluaran Donasi/Amal
+1327,1,False,171052,2024-08-28,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1328,1,False,160713,2024-08-25,Perawatan Diri,Pengeluaran Perawatan Diri
+1329,1,False,176537,2024-08-16,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1330,1,False,150253,2024-08-21,Makanan,Pengeluaran Makanan
+1331,1,False,176376,2024-08-04,Transportasi,Pengeluaran Transportasi
+1332,1,False,179397,2024-08-22,Kesehatan,Pengeluaran Kesehatan
+1333,1,False,185882,2024-08-13,Perawatan Diri,Pengeluaran Perawatan Diri
+1334,1,False,168870,2024-08-15,Makanan,Pengeluaran Makanan
+1335,1,False,178417,2024-08-17,Makanan,Pengeluaran Makanan
+1336,1,False,179984,2024-08-27,Asuransi,Pengeluaran Asuransi
+1337,1,False,1002634,2024-08-24,Perjalanan,Pengeluaran Ekstra
+1338,1,True,5318024,2024-09-01,Gaji,Gaji Bulanan Utama
+1339,1,False,142214,2024-09-22,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1340,1,False,148102,2024-09-28,Pakaian,Pengeluaran Pakaian
+1341,1,False,140954,2024-09-18,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1342,1,False,150752,2024-09-18,Belanja,Pengeluaran Belanja
+1343,1,False,161934,2024-09-20,Asuransi,Pengeluaran Asuransi
+1344,1,False,139755,2024-09-18,Kesehatan,Pengeluaran Kesehatan
+1345,1,False,165740,2024-09-23,Transportasi,Pengeluaran Transportasi
+1346,1,False,168454,2024-09-04,Edukasi,Pengeluaran Edukasi
+1347,1,False,134542,2024-09-09,Rumah Tangga,Pengeluaran Rumah Tangga
+1348,1,False,135098,2024-09-25,Pakaian,Pengeluaran Pakaian
+1349,1,False,130712,2024-09-26,Hiburan,Pengeluaran Hiburan
+1350,1,False,136481,2024-09-01,Perjalanan,Pengeluaran Perjalanan
+1351,1,False,165028,2024-09-18,Edukasi,Pengeluaran Edukasi
+1352,1,False,151379,2024-09-13,Transportasi,Pengeluaran Transportasi
+1353,1,False,127865,2024-09-27,Hiburan,Pengeluaran Hiburan
+1354,1,False,164763,2024-09-14,Rumah Tangga,Pengeluaran Rumah Tangga
+1355,1,False,170632,2024-09-13,Makanan,Pengeluaran Makanan
+1356,1,False,144059,2024-09-03,Belanja,Pengeluaran Belanja
+1357,1,False,132720,2024-09-14,Donasi/Amal,Pengeluaran Donasi/Amal
+1358,1,False,160859,2024-09-19,Belanja,Pengeluaran Belanja
+1359,1,False,139484,2024-09-05,Donasi/Amal,Pengeluaran Donasi/Amal
+1360,1,False,159850,2024-09-29,Utilitas,Pengeluaran Utilitas
+1361,1,False,160811,2024-09-23,Pakaian,Pengeluaran Pakaian
+1362,1,False,135776,2024-09-29,Perawatan Diri,Pengeluaran Perawatan Diri
+1363,1,False,141113,2024-09-29,Perawatan Diri,Pengeluaran Perawatan Diri
+1364,1,True,4618970,2024-10-01,Gaji,Gaji Bulanan Utama
+1365,1,False,110220,2024-10-06,Utilitas,Pengeluaran Utilitas
+1366,1,False,125506,2024-10-21,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1367,1,False,110012,2024-10-01,Perawatan Diri,Pengeluaran Perawatan Diri
+1368,1,False,127608,2024-10-24,Perawatan Diri,Pengeluaran Perawatan Diri
+1369,1,False,100887,2024-10-25,Utilitas,Pengeluaran Utilitas
+1370,1,False,107115,2024-10-02,Belanja,Pengeluaran Belanja
+1371,1,False,106157,2024-10-28,Transportasi,Pengeluaran Transportasi
+1372,1,False,111068,2024-10-11,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1373,1,False,102116,2024-10-10,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1374,1,False,103170,2024-10-26,Utilitas,Pengeluaran Utilitas
+1375,1,False,123250,2024-10-21,Belanja,Pengeluaran Belanja
+1376,1,False,110080,2024-10-03,Donasi/Amal,Pengeluaran Donasi/Amal
+1377,1,False,125727,2024-10-19,Transportasi,Pengeluaran Transportasi
+1378,1,False,120916,2024-10-20,Makanan,Pengeluaran Makanan
+1379,1,False,119921,2024-10-24,Edukasi,Pengeluaran Edukasi
+1380,1,False,115223,2024-10-19,Kesehatan,Pengeluaran Kesehatan
+1381,1,False,117452,2024-10-07,Hiburan,Pengeluaran Hiburan
+1382,1,False,97357,2024-10-01,Utilitas,Pengeluaran Utilitas
+1383,1,False,119338,2024-10-12,Makanan,Pengeluaran Makanan
+1384,1,False,127735,2024-10-15,Transportasi,Pengeluaran Transportasi
+1385,1,False,126716,2024-10-22,Edukasi,Pengeluaran Edukasi
+1386,1,False,127824,2024-10-27,Asuransi,Pengeluaran Asuransi
+1387,1,False,98903,2024-10-08,Asuransi,Pengeluaran Asuransi
+1388,1,False,119165,2024-10-23,Rumah Tangga,Pengeluaran Rumah Tangga
+1389,1,False,97469,2024-10-18,Rumah Tangga,Pengeluaran Rumah Tangga
+1390,1,False,113573,2024-10-16,Perjalanan,Pengeluaran Perjalanan
+1391,1,False,108188,2024-10-29,Makanan,Pengeluaran Makanan
+1392,1,False,114374,2024-10-27,Perjalanan,Pengeluaran Perjalanan
+1393,1,False,104923,2024-10-09,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1394,1,False,341713,2024-10-22,Donasi/Amal,Pengeluaran Ekstra
+1395,1,True,5215906,2024-11-01,Gaji,Gaji Bulanan Utama
+1396,1,True,404288,2024-11-24,Bonus,Pendapatan Tambahan
+1397,1,False,139389,2024-11-21,Donasi/Amal,Pengeluaran Donasi/Amal
+1398,1,False,138053,2024-11-13,Donasi/Amal,Pengeluaran Donasi/Amal
+1399,1,False,144058,2024-11-14,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1400,1,False,151320,2024-11-26,Rumah Tangga,Pengeluaran Rumah Tangga
+1401,1,False,164597,2024-11-16,Transportasi,Pengeluaran Transportasi
+1402,1,False,169923,2024-11-25,Kesehatan,Pengeluaran Kesehatan
+1403,1,False,173378,2024-11-23,Belanja,Pengeluaran Belanja
+1404,1,False,165343,2024-11-15,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1405,1,False,162057,2024-11-25,Tagihan,Pengeluaran Tagihan
+1406,1,False,154068,2024-11-17,Pulsa/Paket Data,Pengeluaran Pulsa/Paket Data
+1407,1,False,137929,2024-11-17,Makanan,Pengeluaran Makanan
+1408,1,False,137465,2024-11-01,Perjalanan,Pengeluaran Perjalanan
+1409,1,False,151607,2024-11-03,Rumah Tangga,Pengeluaran Rumah Tangga
+1410,1,False,155647,2024-11-27,Edukasi,Pengeluaran Edukasi
+1411,1,False,160146,2024-11-13,Utilitas,Pengeluaran Utilitas
+1412,1,False,173846,2024-11-12,Pakaian,Pengeluaran Pakaian
+1413,1,False,133396,2024-11-08,Edukasi,Pengeluaran Edukasi
+1414,1,False,166304,2024-11-16,Tagihan,Pengeluaran Tagihan
+1415,1,False,141390,2024-11-05,Tagihan,Pengeluaran Tagihan
+1416,1,False,142815,2024-11-09,Makanan,Pengeluaran Makanan
+1417,1,False,146021,2024-11-22,Asuransi,Pengeluaran Asuransi
+1418,1,False,154850,2024-11-09,Belanja,Pengeluaran Belanja
+1419,1,False,167601,2024-11-19,Asuransi,Pengeluaran Asuransi
+1420,1,False,157939,2024-11-04,Olahraga/Fitness,Pengeluaran Olahraga/Fitness
+1421,1,True,5136512,2024-12-01,Gaji,Gaji Bulanan Utama
+1422,1,False,187539,2024-12-01,Rumah Tangga,Pengeluaran Rumah Tangga
+1423,1,False,207250,2024-12-24,Edukasi,Pengeluaran Edukasi
+1424,1,False,178905,2024-12-25,Hiburan,Pengeluaran Hiburan
+1425,1,False,174101,2024-12-06,Perjalanan,Pengeluaran Perjalanan
+1426,1,False,172865,2024-12-12,Donasi/Amal,Pengeluaran Donasi/Amal
+1427,1,False,200435,2024-12-18,Utilitas,Pengeluaran Utilitas
+1428,1,False,167784,2024-12-09,Belanja,Pengeluaran Belanja
+1429,1,False,196727,2024-12-23,Pakaian,Pengeluaran Pakaian
+1430,1,False,198777,2024-12-02,Rumah Tangga,Pengeluaran Rumah Tangga
+1431,1,False,188821,2024-12-17,Tagihan,Pengeluaran Tagihan
+1432,1,False,213647,2024-12-21,Tagihan,Pengeluaran Tagihan
+1433,1,False,161868,2024-12-06,Rumah Tangga,Pengeluaran Rumah Tangga
+1434,1,False,207928,2024-12-08,Perjalanan,Pengeluaran Perjalanan
+1435,1,False,177320,2024-12-14,Pakaian,Pengeluaran Pakaian
+1436,1,False,191051,2024-12-24,Perjalanan,Pengeluaran Perjalanan
+1437,1,False,173600,2024-12-09,Donasi/Amal,Pengeluaran Donasi/Amal
+1438,1,False,188225,2024-12-16,Transportasi,Pengeluaran Transportasi
+1439,1,False,180612,2024-12-15,Hiburan,Pengeluaran Hiburan
+1440,1,False,217574,2024-12-08,Rumah Tangga,Pengeluaran Rumah Tangga

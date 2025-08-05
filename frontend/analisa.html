@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monify - Analisa Keuangan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;800&family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/analisa.css">
+    <link rel="icon" href="image/icon.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="monify-app-header">
+        <button class="back-button" onclick="history.back()">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 18L9 12L15 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+        <div class="monify-app-title">Analisa Keuangan Anda 📊</div>
+    </div>
+
+    <div class="container w-full max-w-2xl">
+        <div class="filter-section mb-6">
+            <h2 class="section-heading">Periode Analisa</h2>
+            <div class="flex space-x-4">
+                <select id="analysisPeriod" class="w-full form-input">
+                    <option value="last_month">Bulan Terakhir</option>
+                    <option value="last_3_months">3 Bulan Terakhir</option>
+                    <option value="last_6_months">6 Bulan Terakhir</option>
+                    <option value="this_year">Tahun Ini</option>
+                    <option value="all_time">Sepanjang Waktu</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="chart-section bg-gray-100 p-8 rounded-lg mb-10">
+            <h2 class="section-heading">Distribusi Pemasukan & Pengeluaran</h2>
+            <div class="chart-canvas-wrapper">
+                <canvas id="incomeExpensePieChart"></canvas>
+                <div id="chartUnavailableMessage" class="chart-message hidden">Data tidak tersedia.</div>
+            </div>
+        </div>
+
+        <div class="financial-metrics-section bg-gray-100 p-8 rounded-lg mb-10">
+            <h2 class="section-heading">Metrik Keuangan Anda 📈</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="info-card">
+                    <h3 class="info-title">Saldo Akumulatif</h3>
+                    <p class="info-value" id="cumulativeBalance">Rp 0</p>
+                </div>
+                <div class="info-card">
+                    <h3 class="info-title">
+                        Rasio Dana Darurat
+                        <span class="info-icon" data-popup-id="popupEmergencyFund">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        </span>
+                    </h3>
+                    <p class="info-value" id="emergencyFundRatio">0 Bulan Pengeluaran</p>
+                    <div id="popupEmergencyFund" class="info-popup">
+                        Rasio dana darurat yang umumnya direkomendasikan adalah 3 hingga 6 bulan pengeluaran.
+                    </div>
+                </div>
+                <div class="info-card">
+                    <h3 class="info-title">Tabungan Periode Ini</h3>
+                    <p class="info-value" id="totalSavingsAmount">Rp 0</p>
+                </div>
+                <div class="info-card">
+                    <h3 class="info-title">
+                        Rasio Tabungan
+                        <span class="info-icon" data-popup-id="popupSavingsRate">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        </span>
+                    </h3>
+                    <p class="info-value" id="savingsRate">0% dari Pemasukan</p>
+                    <div id="popupSavingsRate" class="info-popup">
+                        Rasio tabungan yang sehat umumnya adalah 10% hingga 20% atau lebih dari pemasukan Anda.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="analysis-results-section bg-gray-100 p-8 rounded-lg mb-10">
+            <h2 class="section-heading">Wawasan dari MONIFY AI ✨</h2>
+            <div id="mlInsightsContainer" class="flex flex-col gap-4">
+                <div class="insight-card">
+                    <h3 class="insight-title">Saran Penghematan di Kategori Makanan</h3>
+                    <p class="insight-text"> tidak ada data</p>
+                </div>
+                <div class="insight-card">
+                    <h3 class="insight-title">Peluang Investasi Dana Menganggur</h3>
+                    <p class="insight-text">tidak ada data</p>
+                </div>
+            </div>
+            <p id="noInsightsMessage" class="text-center text-gray-500 hidden">Tidak ada wawasan baru untuk periode ini. Terus catat transaksi Anda!</p>
+        </div>
+
+        <div class="savings-projection-section bg-gray-100 p-8 rounded-lg mb-10">
+            <h2 class="section-heading">Proyeksi Tabungan Anda 🔮</h2>
+            <div class="chart-canvas-wrapper">
+                <canvas id="savingsProjectionChart"></canvas>
+                <div id="savingsProjectionUnavailableMessage" class="chart-message hidden">Tidak ada cukup data historis untuk proyeksi.</div>
+            </div>
+        </div>
+        <div class="conclusion-section bg-gray-100 p-8 rounded-lg">
+            <h2 class="section-heading">Kesimpulan & Rekomendasi Umum 💡</h2>
+            <div id="conclusionContent">
+                <p></p>
+                <p class="mt-4"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/analisa.js"></script>
+</body>
+</html>

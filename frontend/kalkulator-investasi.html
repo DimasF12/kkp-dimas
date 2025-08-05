@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monify - Investment Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Inter:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="icon" href="image/icon.png" type="image/png">
+</head>
+<body>
+    <div class="calculator-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <button class="back-button">
+                <i class="fa-solid fa-arrow-left fa-2xl" style="color: white;"></i>
+            </button>
+            <h1 class="app-logo">Monify</h1>
+        </header>
+
+        <!-- User Profile Section -->
+        <section class="user-profile">
+            <div class="profile-card">
+                <div class="avatar">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <div class="profile-info">
+                    <div class="app-info">
+                        <span class="app-name">Monify</span>
+                        <p class="tagline">Atur Keuangan, Bebas Stres</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section class="calculator-section">
+            <div class="section-header">
+                <h2 class="section-title">Kalkulator Investasi</h2>
+                <div class="calculator-icon">
+                    <i class="fa-solid fa-calculator fa-2xl" style="color: #006CFE;"></i>
+                </div>
+            </div>
+
+            <div class="calculator-form">
+                <!-- Target Amount -->
+                <div class="input-group">
+                    <label>Jumlah uang yang ingin kamu capai</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <!-- Time Frame -->
+                <div class="input-group">
+                    <label>Uang yang ingin kamu capai dalam</label>
+                    <div class="input-field">
+                        <input type="text" class="years-input">
+                        <span class="suffix">Tahun Lagi</span>
+                    </div>
+                </div>
+
+                <!-- Current Savings -->
+                <div class="input-group">
+                    <label>Uang yang kamu miliki saat ini sebesar</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <!-- Monthly Investment -->
+                <div class="input-group">
+                    <label>Target investasimu tiap bulan sebesar</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <!-- Expected Return -->
+                <div class="input-group">
+                    <label>Return produk investasimu</label>
+                    <div class="input-field">
+                        <input type="text" class="percent-input">
+                        <span class="suffix">%/Tahun</span>
+                    </div>
+                </div>
+
+                <!-- Calculate Button -->
+                <button class="calculate-btn">
+                    Ayo Cek Investasi Mu
+                    <i class="fa-solid fa-bullseye" style= "margin: 7px;"></i>
+                </button>
+            </div>
+        </section>
+    </div>
+    
+    <script src="js/calculator.js"></script>
+</body>
+</html>

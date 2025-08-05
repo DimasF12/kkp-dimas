@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monify - Money Management</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="icon" href="image/icon.png" type="image/png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <button id="backButton" aria-label="Back button">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <h1 class="app-logo">Monify</h1>
+                <button id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="profile-section">
+            <div class="card profile-card" id="profileCard">
+                <div class="avatar" role="img" aria-label="User avatar">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <div class="flex-column">
+                    <h2 class="greeting" id="usernameDisplay">Hi, Username</h2>
+                    <p class="tagline">Atur Keuangan, Bebas Stres</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid" id="servicesGrid">
+               
+            </div>
+        </section>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

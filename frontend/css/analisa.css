@@ -1,0 +1,404 @@
+:root {
+    --monify-blue-primary: #2F80ED;
+    --monify-blue-dark: #006CFE;
+    --monify-green-primary: #2AFF51;
+    --monify-green-dark: #00520A;
+    --monify-red-primary: #FD2121;
+    --monify-red-dark: #7A1111;
+    --monify-gray-light: #E8E8E8;
+    --monify-gray-medium: #C9C9C9;
+    --monify-text-dark: #333;
+    --monify-text-light: #fff;
+    --monify-gradient-start: #667eea;
+    --monify-gradient-end: #764ba2;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--monify-blue-dark);
+    color: var(--monify-text-light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    background: linear-gradient(to bottom, var(--monify-blue-dark) 0%, var(--monify-blue-dark) 200px, #f5f5f5 200px, #f5f5f5 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.monify-app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: var(--monify-blue-dark);
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.monify-app-title {
+    color: var(--monify-text-light);
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    margin-left: 5px;
+    flex-grow: 1;
+    text-align: center;
+    padding-right: 24px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 21;
+    flex-shrink: 0;
+}
+.back-button svg {
+    fill: none;
+    stroke: var(--monify-text-light);
+    stroke-width: 2;
+    width: 24px;
+    height: 24px;
+}
+
+.container {
+    background: var(--monify-text-light);
+    color: var(--monify-text-dark);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.main-title {
+    font-family: 'Nunito', sans-serif;
+    color: var(--monify-blue-primary);
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section-heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--monify-blue-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Common Section Card Style */
+.filter-section, .chart-section, .analysis-results-section, .conclusion-section, .financial-metrics-section, .savings-projection-section { /* Tambah .savings-projection-section */
+    background: var(--monify-text-light);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 2px solid var(--monify-gray-light);
+    margin-bottom: 24px;
+}
+
+/* Hapus margin-bottom dari card terakhir jika ada */
+.container > div:last-child {
+    margin-bottom: 0;
+}
+
+
+.chart-canvas-wrapper {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.chart-message {
+    text-align: center;
+    color: #777;
+    font-size: 1.1rem;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.chart-message.hidden {
+    display: none;
+}
+
+
+.form-input {
+    width: 100%;
+    border: 2px solid var(--monify-blue-primary);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    color: var(--monify-text-dark);
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    border-color: var(--monify-blue-dark);
+    box-shadow: 0 0 0 3px rgba(47, 128, 237, 0.3);
+}
+
+::placeholder {
+    color: var(--monify-gray-medium);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--monify-blue-primary);
+}
+
+.main-button {
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--monify-blue-primary);
+    color: var(--monify-text-light);
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background: var(--monify-blue-dark);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.secondary-button {
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.5rem;
+    background: var(--monify-red-primary);
+    color: var(--monify-text-light);
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.secondary-button:hover {
+    background: var(--monify-red-dark);
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Info Card (reused for Financial Metrics & Savings Analysis) */
+.info-card {
+    background: var(--monify-text-light);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    border: 1px solid var(--monify-gray-light);
+    color: var(--monify-text-dark);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-card .info-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--monify-blue-primary);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+/* Gaya untuk ikon info */
+.info-icon {
+    cursor: pointer;
+    color: var(--monify-blue-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+.info-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Gaya untuk popup informasi */
+.info-popup {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85);
+    color: var(--monify-text-light);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+    margin-top: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.info-popup.show {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.info-card .info-value {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--monify-blue-dark);
+}
+
+.info-card .info-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--monify-text-dark);
+}
+
+/* Insight Card (reused from previous definition) */
+.insight-card {
+    background: var(--monify-text-light);
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    padding: 15px;
+    border: 1px solid var(--monify-gray-light);
+    color: var(--monify-text-dark);
+}
+
+.insight-card .insight-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--monify-blue-primary);
+    margin-bottom: 8px;
+}
+
+.insight-card .insight-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--monify-text-dark);
+    margin-bottom: 10px;
+}
+
+.insight-card .action-button-small {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    background: var(--monify-green-primary);
+    color: var(--monify-text-light);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+.insight-card .action-button-small:hover {
+    background: var(--monify-green-dark);
+}
+
+/* Conclusion Section Specifics */
+#conclusionContent p {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--monify-text-dark);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    .monify-app-title {
+        font-size: 24px;
+    }
+    .section-heading {
+        font-size: 1.3rem;
+    }
+    
+    .grid.grid-cols-3.gap-4.mb-10 {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .grid.grid-cols-3.gap-4.mb-10 .card {
+        width: 100%;
+    }
+
+    .flex.space-x-4 {
+        flex-direction: column;
+        space-x: 0;
+        gap: 1rem;
+    }
+    .flex.space-x-4 > * {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .flex.justify-end {
+        flex-direction: column;
+    }
+    .flex.justify-end button {
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: 100px;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    body {
+        padding: 0;
+    }
+}

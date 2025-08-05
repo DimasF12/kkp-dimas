@@ -1,0 +1,177 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+/* Login Container */
+.login-container {
+    width: 393px;
+    height: 852px;
+    position: relative;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Background Shapes */
+.bg-shape {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-shape-1 {
+    width: 393px;
+    height: 508px;
+    top: -118px;
+    background: #2F80ED;
+    opacity: 0.5;
+    clip-path: path('M44.5686 -112.381C46.5016 -115.729 50.7827 -116.876 54.1308 -114.943L591.42 195.261C594.768 197.194 595.915 201.475 593.982 204.823L420.352 505.558C418.131 509.405 412.236 507.114 413.197 502.777C436.706 396.604 347.414 299.418 239.634 313.871L128.256 328.806C27.5519 336.707 -70.7317 295.29 -135.409 217.698L-141.287 210.646C-141.516 210.372 -141.549 209.984 -141.371 209.675L44.5686 -112.381Z');
+}
+
+.bg-shape-2 {
+    width: 393px;
+    height: 277px;
+    top: -72px;
+    background: #2F80ED;
+    clip-path: path('M-120 -65C-120 -68.866 -116.866 -72 -113 -72H436C439.866 -72 443 -68.866 443 -65V235.068C443 238.99 437.491 239.858 436.285 236.126C406.994 145.474 297.095 110.709 220.997 168.023L140.082 228.966C66.0062 278.664 -27.2773 290.204 -111.23 260.057L-119.49 257.091C-119.796 256.981 -120 256.691 -120 256.365V-65Z');
+}
+
+.bg-shape-3 {
+    width: 393px;
+    height: 196px;
+    top: 670px;
+    background: #2F80ED;
+    clip-path: path('M458.047 349.5C457.769 353.356 454.418 356.256 450.562 355.978L-97.0181 316.52C-100.874 316.243 -103.775 312.891 -103.497 309.035L-81.9302 9.74318C-81.6484 5.83188 -76.0912 5.36212 -75.1568 9.17063C-52.457 101.694 54.6595 144.268 134.68 92.5706L219.766 37.6008C297.222 -6.64413 391.094 -11.45 472.663 24.6533L480.688 28.2052C480.985 28.3368 481.168 28.6409 481.144 28.9653L458.047 349.5Z');
+}
+
+/* Login Content */
+.login-content {
+    position: relative;
+    z-index: 10;
+    padding: 40px 25px;
+    top: 200px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#loginForm{
+    position: relative;
+}
+
+.login-title {
+    color: #2F80ED;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #2F80ED;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.forgot-password {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.login-button {
+    width: 144px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    align-self: flex-end;
+    margin-top: 40px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: -290px;
+    right: 5px;
+}
+
+.login-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social-login {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.google-login {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.register-prompt {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.register-prompt a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+}

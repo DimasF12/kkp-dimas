@@ -1,0 +1,163 @@
+:root {
+  --primary-blue: #006CFE;
+  --highlight-green: #2DF95D;
+  --text-black: #000000;
+  --bg-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  background-color: rgb(99, 98, 98);
+}
+
+/* Kontainer utama */
+.result-success {
+  width: 393px;
+  height: 1400px;
+  position: relative;
+  background: var(--bg-white);
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.header-bg {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background: var(--primary-blue);
+  position: relative;
+}
+
+.app-name {
+  left: 65px;
+  top: 15px;
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  font-family: Nunito, sans-serif;
+  font-weight: 800;
+}
+
+.back-btn {
+  top: 30px;
+  left: 25px;
+  position: relative;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.back-button:hover {
+  transform: scale(1.1);
+}
+
+/* Panel info */
+.response-info {
+  width: 341px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  background: var(--highlight-green);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: 2px solid var(--text-black);
+}
+
+/* Panel input user */
+.input-user {
+  width: 350px;
+  display: flex;
+  margin: 30px auto;
+  background: var(--bg-white);
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: 1px solid var(--text-black);
+}
+
+/* Panel analisa */
+.analisa {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 20px auto;
+  background: var(--bg-white);
+  box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: 2px solid var(--text-black);
+}
+
+.analisa-title {
+  padding: 10px;
+  text-align: center;
+  color: var(--text-black);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.separator-analisa {
+  width: 310px;
+  margin: auto;
+  border-bottom: 1px solid var(--text-black);
+}
+
+/* Panel saran investasi */
+.investment-suggestion {
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  background: var(--bg-white);
+  box-shadow: 5px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: 2px solid var(--text-black);
+  z-index: 10;
+}
+
+.suggestion-title {
+  padding: 10px;
+  text-align: center;
+  color: var(--text-black);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.separator-line {
+  width: 310px;
+  margin: auto;
+  border-bottom: 1px solid var(--text-black);
+}
+
+/* Background SVG hiasan */
+.box-1 {
+  position: absolute;
+  bottom: -5px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 400px) {
+  .result-success {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
+  .input-user,
+  .analisa,
+  .investment-suggestion,
+  .response-info {
+    width: 90%;
+  }
+}

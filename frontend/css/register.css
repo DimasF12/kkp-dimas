@@ -1,0 +1,167 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+/* Register Container */
+.register-container {
+    width: 393px;
+    height: 852px;
+    position: relative;
+    background: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Background Shapes */
+.bg-shape {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-shape-1 {
+    width: 393px;
+    height: 270px;
+    top: -77px;
+    background: #2F80ED;
+    clip-path: path('M-120 -70C-120 -73.866 -116.866 -77 -113 -77H436C439.866 -77 443 -73.866 443 -70V230.068C443 233.99 437.491 234.858 436.285 231.126C406.994 140.474 297.095 105.709 220.997 163.023L140.082 223.966C66.0062 273.664 -27.2773 285.204 -111.23 255.057L-119.49 252.091C-119.796 251.981 -120 251.691 -120 251.365V-70Z');
+}
+
+.bg-shape-2 {
+    width: 393px;
+    height: 508px;
+    top: -118px;
+    background: #2F80ED;
+    opacity: 0.5;
+    clip-path: path('M44.5686 -112.381C46.5016 -115.729 50.7827 -116.876 54.1308 -114.943L591.42 195.261C594.768 197.194 595.915 201.475 593.982 204.823L420.352 505.558C418.131 509.405 412.236 507.114 413.197 502.777C436.706 396.604 347.414 299.418 239.634 313.871L128.256 328.806C27.5519 336.707 -70.7317 295.29 -135.409 217.698L-141.287 210.646C-141.516 210.372 -141.549 209.984 -141.371 209.675L44.5686 -112.381Z');
+}
+
+.bg-shape-3 {
+    width: 393px;
+    height: 197px;
+    top: 670px;
+    background: #2F80ED;
+    clip-path: path('M458.043 349.5C457.765 353.356 454.414 356.256 450.558 355.978L-97.022 316.52C-100.878 316.243 -103.779 312.891 -103.501 309.035L-81.9341 9.74318C-81.6523 5.83188 -76.0951 5.36212 -75.1607 9.17063C-52.4609 101.694 54.6555 144.268 134.676 92.5706L219.762 37.6008C297.218 -6.64413 391.09 -11.45 472.659 24.6533L480.684 28.2052C480.981 28.3368 481.164 28.6409 481.141 28.9653L458.043 349.5Z');
+}
+
+/* Register Content */
+.register-content {
+    position: relative;
+    z-index: 10;
+    padding: 40px 25px;
+    top: 200px;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+#registerForm{
+    position: relative;
+}
+.register-title {
+    color: #2F80ED;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.input-group {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    color: #2F80ED;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.input-field {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #2F80ED;
+    padding: 0 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.register-button {
+    width: 144px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    align-self: flex-end;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: -230px;
+    right: 5px;
+}
+
+.register-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.social-register {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.google-register {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.google-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.login-prompt {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-prompt a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

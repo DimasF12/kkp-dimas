@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monify - Investment Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Inter:wght@400;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/dana-darurat.css">
+    <link rel="icon" href="image/icon.png" type="image/png">
+</head>
+<body>
+    <div class="dandur-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <button class="back-button">
+                <i class="fa-solid fa-arrow-left fa-2xl" style="color: white;"></i>
+            </button>
+            <h1 class="app-logo">Monify</h1>
+        </header>
+
+        <!-- User Profile Section -->
+        <section class="user-profile">
+            <div class="profile-card">
+                <div class="avatar">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <div class="profile-info">
+                    <div class="app-info">
+                        <span class="app-name">Monify</span>
+                        <p class="tagline">Atur Keuangan, Bebas Stres</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculator Section -->
+        <section class="dandur-section">
+            <div class="section-header">
+                <h2 class="section-title">Hitung Dana Darurat</h2>
+                <div class="dandur-icon">
+                    <i class="fas fa-piggy-bank fa-2xl" style="color: #006CFE;"></i>
+                </div>
+            </div>
+
+            <form id="dandur-form"class="dana_darurat-form">
+
+                <!-- Pengeluaran wajib -->
+                <div class="input-group">
+                    <label>Berapa pengeluaran wajib mu tiap bulan</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text" id="pengeluaran">
+                    </div>
+                </div>
+
+                <!-- sudah menikah atau belum -->
+                <div class="input-group">
+                  <label>Status Pernikahan</label>
+                  <div class="button-group" id="maritalStatus">
+                    <button type="button" class="status-button" data-status="single" value="false">Belum</button>
+                    <button type="button" class="status-button" data-status="married" value="true">Sudah</button>
+                  </div>
+                </div>
+
+                <!-- beban tanggungan -->
+                <div class="input-group">
+                    <label>Berapa beban tanggungan mu?</label>
+                    <div class="input-field">
+                        <input type="text" class="people-input" id="tanggungan">
+                        <span class="suffix">Orang</span>
+                    </div>
+                </div>
+
+                <!-- waktu pengumpulan -->
+                <div class="input-group">
+                    <label>Waktu pengumpulan dana darurat</label>
+                    <div class="input-field">
+                        <input type="text" class="month-input" id="waktu">
+                        <span class="suffix">Bulan</span>
+                    </div>
+                </div>
+
+                <!-- dana yang dimiliki -->
+                <div class="input-group">
+                    <label>Jumlah dana darurat yang dimiliki</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text" id="dana_saat_ini">
+                    </div>
+                </div>
+
+                <!-- Target amount -->
+                <div class="input-group">
+                    <label>Target investasimu tiap bulan sebesar</label>
+                    <div class="input-field">
+                        <span class="currency">Rp</span>
+                        <input type="text" id="target_investasi">
+                    </div>
+                </div>
+
+                <!-- Return produk -->
+                <div class="input-group">
+                    <label>Return produk investasimu</label>
+                    <div class="input-field">
+                        <input type="text" class="percent-input" id="return_investasi">
+                        <span class="suffix">%/Tahun</span>
+                    </div>
+                </div>
+                
+                <!-- dandur Button -->
+                <button class="dandur-btn" type="submit">
+                    Ayo Cek Analisa Mu
+                    <i class="fa-solid fa-bullseye" style="margin: 7px;"></i>
+                </button>
+            </form>
+        </section>
+    </div>
+    <script src="js/dana-darurat.js"></script>
+</body>
+</html>
