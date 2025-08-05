@@ -34,9 +34,10 @@ app = FastAPI(
 )
 
 allow_origins =[
-    "http://127.0.0.1:5000",  # URL frontend lokal
-    "kkp-dimas.vercel.app",  # ganti dengan domain frontend Anda
-    "*",
+    # "http://127.0.0.1:5000",  # URL frontend lokal
+    "kkp-dimas.vercel.app",
+    "https://kkp-dimas.vercel.app/",  # ganti dengan domain frontend Anda
+    # "*",
 ]
 # ───── Middleware CORS ─────
 app.add_middleware(
