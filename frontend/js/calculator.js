@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
         calculateBtn.innerHTML = 'Calculating...';
 
         try {
-            const response = await fetch("http://localhost:8000/calculator/calculator", {
+            const response = await fetch("https://nhkdqrpw-8000.asse.devtunnels.ms/calculator/calculator", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

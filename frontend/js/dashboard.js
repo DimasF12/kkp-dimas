@@ -41,7 +41,7 @@ const backButton = document.getElementById('backButton');
 // Ambil data user dari backend
 async function getCurrentUser() {
     try {
-        const res = await fetch('http://127.0.0.1:8000/auth/me', {
+        const res = await fetch('https://nhkdqrpw-8000.asse.devtunnels.ms/auth/me', {
             method: 'GET',
             credentials: 'include',  // <- ini wajib!
         });
@@ -61,7 +61,7 @@ async function isAuthenticated() {
 // Logout user
 async function logout() {
     try {
-        const response = await fetch("http://127.0.0.1:8000/auth/logout", {
+        const response = await fetch("https://nhkdqrpw-8000.asse.devtunnels.ms/auth/logout", {
             method: 'POST',
             credentials: 'include'
         });

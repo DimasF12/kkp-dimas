@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
     const password = document.getElementById("password").value;
 
     try {
-        const res = await fetch("http://127.0.0.1:8000/auth/login", {
+        const res = await fetch("https://nhkdqrpw-8000.asse.devtunnels.ms/auth/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

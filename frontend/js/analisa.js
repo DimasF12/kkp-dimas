@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- FUNGSI: Mengambil Kategori dari Backend (Ditinggikan ke scope DOMContentLoaded) ---
     async function fetchAndCacheCategories() {
-        const url = "http://127.0.0.1:8000/categories/";
-
+        const url = "https://nhkdqrpw-8000.asse.devtunnels.ms/categories/";
         try {
             const response = await fetch(url, { credentials: "include" });
             if (!response.ok) {
@@ -59,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Mengambil Data Analisis dari Backend (Diperbarui untuk memanggil endpoint analisis baru) ---
     async function fetchAnalysisDataFromBackend(period) {
         // PERBAIKAN: Memanggil endpoint analisis yang baru di backend
-        const url = `http://127.0.0.1:8000/analysis/analysis/insights/?period=${period}`; // Endpoint GET dengan parameter period
+        const url = `https://nhkdqrpw-8000.asse.devtunnels.ms/analysis/analysis/insights/?period=${period}`; // Endpoint GET dengan parameter period
 
         try {
             const response = await fetch(url, {

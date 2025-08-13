@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // --- FUNGSI BARU: Mengambil Kategori dari Backend ---
     async function fetchAndPopulateCategories() {
-        const url = "http://127.0.0.1:8000/categories/"; // Endpoint Anda untuk kategori
+        const url = "https://nhkdqrpw-8000.asse.devtunnels.ms/categories/"; // Endpoint Anda untuk kategori
 
         try {
             const response = await fetch(url, {
@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const dateFilter = filterDateEl.value;
         const typeFilter = filterTypeEl.value;
 
-        let url = "http://127.0.0.1:8000/transactions/transactions/";
+        let url = "https://nhkdqrpw-8000.asse.devtunnels.ms/transactions/transactions/";
         const params = new URLSearchParams();
 
         if (dateFilter) {
@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
             category_id // Kirim category_id
         };
 
-        let url = "http://127.0.0.1:8000/transactions/transactions";
+        let url = "https://nhkdqrpw-8000.asse.devtunnels.ms/transactions/transactions";
         let method = "POST";
 
         if (transactionId) {
@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!confirmDelete) return;
 
         try {
-            const response = await fetch(`http://127.0.0.1:8000/transactions/transactions/${id}`, {
+            const response = await fetch(`https://nhkdqrpw-8000.asse.devtunnels.ms/transactions/transactions/${id}`, {
                 method: "DELETE",
                 credentials: "include",
             });

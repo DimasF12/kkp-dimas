@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     calculateBtn.disabled = true;
     calculateBtn.innerHTML = 'Calculating...';
     try {
-      const response = await fetch("http://localhost:8000/danpen/calculate", {
+      const response = await fetch("https://nhkdqrpw-8000.asse.devtunnels.ms/danpen/calculate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestBody),

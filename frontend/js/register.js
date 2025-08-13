@@ -7,7 +7,7 @@ document.getElementById("registerForm").addEventListener("submit", async functio
     const message = document.getElementById("message");
   
     try {
-      const res = await fetch("http://localhost:8000/auth/register", {
+      const res = await fetch("https://nhkdqrpw-8000.asse.devtunnels.ms/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
