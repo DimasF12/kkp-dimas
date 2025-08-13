@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Mengambil Data Analisis dari Backend (Diperbarui untuk memanggil endpoint analisis baru) ---
     async function fetchAnalysisDataFromBackend(period) {
         // PERBAIKAN: Memanggil endpoint analisis yang baru di backend
-        const url = `https://nhkdqrpw-8000.asse.devtunnels.ms/analysis/insights/?period=${period}`; // Endpoint GET dengan parameter period
+        const url = `https://nhkdqrpw-8000.asse.devtunnels.ms/analysis/analysis/insights/?period=${period}`; // Endpoint GET dengan parameter period
 
         try {
             const response = await fetch(url, {
